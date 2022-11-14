@@ -1,1 +1,5 @@
+# Demo page
 https://xpeedstudio.com/html/charitypress/
+
+# 7 in 1 pattern
+https://gist.github.com/rveitch/84cea9650092119527bc

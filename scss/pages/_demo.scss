@@ -1,0 +1,42 @@
+h1 {
+    background-color: red;
+    @include equal_size;
+    @extend %default_transition;
+}
+
+.flag {
+    width: 600px;
+    height: 400px;
+    @extend %default_transition;
+    background-color: green;
+    position: relative;
+
+    @include responsive( $tablet ) {
+        width: 400px;
+        height: 250px;
+    }
+    
+    @include responsive( $mobile ) {
+        width: 300px;
+        height: 180px;
+    }
+
+    .round {
+        @include equal_size( 200px );
+        @include radius;
+        @extend %position_center;
+        background-color: red;
+
+        @include responsive( $tablet ) {
+            @include equal_size;
+        }
+        
+        @include responsive( $mobile ) {
+            @include equal_size( 50px );
+        }
+    }
+
+    .stick {
+        width: 10px;
+    }
+}
