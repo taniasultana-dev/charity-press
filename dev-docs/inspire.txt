@@ -1,1 +1,5 @@
+#demo site
 https://xpeedstudio.com/html/charitypress/
+
+#Squoosh
+https://squoosh.app/
