@@ -1,2 +1,10 @@
-@import './pages/home';
-@import './pages/about';
+// utiliteis
+@import 
+    './utilities/variables',
+    './utilities/extends',
+    './utilities/mixins';
+
+// base css
+@import './base/reset';
+// pages css
+@import './pages/demo';

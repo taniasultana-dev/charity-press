@@ -1,0 +1,11 @@
+%default_transition {
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+%position_center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
