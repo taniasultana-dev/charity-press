@@ -1,0 +1,20 @@
+.primary-btn{
+    padding: 10px 30px;
+    background-color: #18bfc3;
+    @extend .default-transition;
+}
+
+.primary-btn:hover{
+    background-color: #0062cc;
+}
+
+.secondary-btn{
+    padding: 10px 30px;
+    background-color: #fe813a;
+    @extend .default-transition;
+}
+
+
+.secondary-btn:hover{
+    background-color: #18bfc3;
+}

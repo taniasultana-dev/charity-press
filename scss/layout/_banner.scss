@@ -1,0 +1,22 @@
+  
+.banner{
+    
+    &--demo{
+        background: url('../images/common/welcome-bg.webp');
+        background-repeat: no-repeat;
+        background-position: top;
+        
+    }
+
+    &__overlay{
+        @extend .overlay;
+        padding: 250px 0 200px 0;
+    }
+
+    
+    
+    
+    
+
+    
+}
