@@ -1,0 +1,16 @@
+.banner {
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &--demo {
+        background-image: url(../images/common/welcome-bg.webp);
+        
+        .overlay {
+            padding: 200px 0;
+        }
+    }
+
+    &__group-btn {
+        @extend .d-flex, .align-items-center, .gap-3, .justify-content-center;
+    }
+}

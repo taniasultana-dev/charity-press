@@ -1,3 +1,6 @@
+//Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+
 // utiliteis
 @import 
     './utilities/variables',
@@ -6,5 +9,9 @@
 
 // base css
 @import './base/reset';
+
+// layouts
+@import './layouts/banner';
+
 // pages css
 @import './pages/demo';
