@@ -10841,7 +10841,7 @@ textarea.form-control-lg {
 .body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10850,20 +10850,62 @@ textarea.form-control-lg {
   margin-bottom: 30px;
 }
 
-.primary-btn {
-  padding: 10px 30px;
-  background-color: #18bfc3;
+.mb-40 {
+  margin-bottom: 40px;
 }
 
+.text-base {
+  font-size: 16px;
+}
+
+.text-md {
+  font-size: 24px;
+}
+
+.text-lg {
+  font-size: 40px;
+}
+
+.text-sm {
+  font-size: 12px;
+}
+
+.l-height {
+  line-height: 24px;
+}
+
+.m-height {
+  line-height: 20px;
+}
+
+.weight-lg {
+  font-weight: 700;
+}
+
+.weight-h {
+  font-weight: 600;
+}
+
+.weight-m {
+  font-weight: 500;
+}
+
+.weight-base {
+  font-weight: 400;
+}
+
+.primary-btn {
+  padding: 14px 39px;
+  background-color: #18bfc3;
+}
 .primary-btn:hover {
   background-color: #0062cc;
 }
 
 .secondary-btn {
-  padding: 10px 30px;
+  padding: 14px 39px;
   background-color: #fe813a;
 }
-
 .secondary-btn:hover {
   background-color: #18bfc3;
 }
@@ -10875,4 +10917,17 @@ textarea.form-control-lg {
 }
 .banner__overlay {
   padding: 250px 0 200px 0;
+}
+@media screen and (max-width: 576px) and (max-width: 576px) {
+  .banner .banner__sub-title {
+    line-height: 26px;
+  }
+}
+@media screen and (max-width: 768px) and (max-width: 768px) {
+  .banner .banner__sub-title {
+    max-width: 450px;
+    margin: 0 auto;
+    line-height: 30px;
+    margin-bottom: 35px;
+  }
 }

@@ -1,18 +1,62 @@
-*{
+* {
     margin: 0;
     padding: 0;
     outline: 0;
     box-sizing: border-box;
 }
-.body{
+
+.body {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    
 }
 
-.mb-30{
+.mb-30 {
     margin-bottom: 30px;
+}
+
+.mb-40{
+    margin-bottom: 40px;
+}
+
+.text-base {
+    font-size: 16px;
+}
+
+.text-md {
+    font-size: 24px;
+}
+
+.text-lg {
+    font-size: 40px;
+}
+
+.text-sm{
+    font-size: 12px;
+}
+
+
+.l-height {
+    line-height: 24px;
+}
+.m-height {
+    line-height: 20px;
+}
+
+.weight-lg {
+    font-weight: 700;
+}
+
+.weight-h {
+   font-weight: 600;
+}
+
+.weight-m{
+    font-weight: 500;
+}
+
+.weight-base {
+    font-weight: 400;
 }
