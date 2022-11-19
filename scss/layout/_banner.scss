@@ -8,32 +8,25 @@
     &__overlay {
         @extend .overlay;
         padding: 250px 0 200px 0;
-    }
-
-    @include responsive( $device: 576px ) {
-        @media screen and  ( max-width: $mobile ) {
-        .banner {
-            &__sub-title {
-                line-height: 26px;
-            }
+        @include responsive( $mobile ) {
+            padding: 150px 0;
         }
 
-
+        @include responsive( $tablet-horizontal, $mobile-horizontal ) {
+            padding: 150px 0;
         }
     }
 
-    @include responsive( $device: 768px ) {
-        @media screen and  ( max-width: $mobile-horizontal ) {
-        .banner {
-            &__sub-title {
-                max-width: 450px;
-                margin: 0 auto;
-                line-height: 30px;
-                margin-bottom: 35px;
-            }
+    &__sub-title {
+        @include responsive( $tablet ) {
+            max-width: 450px;
+            margin: 0 auto;
+            line-height: 30px;
+            margin-bottom: 35px;
         }
 
-
+        @include responsive( $mobile ) {
+            line-height: 36px;
         }
     }
 }

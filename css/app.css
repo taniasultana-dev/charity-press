@@ -10918,16 +10918,26 @@ textarea.form-control-lg {
 .banner__overlay {
   padding: 250px 0 200px 0;
 }
-@media screen and (max-width: 576px) and (max-width: 576px) {
-  .banner .banner__sub-title {
-    line-height: 26px;
+@media screen and (max-width: 575px) {
+  .banner__overlay {
+    padding: 150px 0;
   }
 }
-@media screen and (max-width: 768px) and (max-width: 768px) {
-  .banner .banner__sub-title {
+@media screen and (max-width: 1200px) and (max-height: 768px) {
+  .banner__overlay {
+    padding: 150px 0;
+  }
+}
+@media screen and (max-width: 992px) {
+  .banner__sub-title {
     max-width: 450px;
     margin: 0 auto;
     line-height: 30px;
     margin-bottom: 35px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .banner__sub-title {
+    line-height: 36px;
   }
 }
