@@ -7,8 +7,12 @@
     './utilities/extends',
     './utilities/mixins';
 
+    
 // base css
 @import './base/reset';
+
+// components
+@import './components/button';
 
 // layouts
 @import './layouts/banner';
