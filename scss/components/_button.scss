@@ -1,0 +1,19 @@
+.primary-btn {
+    padding: 14px 39px;
+    background-color: $sky-blue;
+    @extend .default-transition;
+    
+    &:hover {
+        background-color: $blue;
+    }
+}
+
+.secondary-btn {
+    padding: 14px 39px;
+    background-color: $orang;
+    @extend .default-transition;
+
+    &:hover {
+        background-color: $sky-blue;
+    }
+}

@@ -1,13 +1,15 @@
-// Bootstrap
+// Then import Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-// utiliteis
-@import 
-    './utilities/variables',
-    './utilities/extends',
-    './utilities/mixins';
-
-// base css
+//utilits
+@import
+       './utilits/variable',
+       './utilits/extends',
+        './utilits/mixin';
+//base
 @import './base/reset';
-// pages css
+
+//components
+@import './components/button';
+//pages
 @import './pages/demo';

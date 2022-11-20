@@ -1,0 +1,33 @@
+.banner {
+    &--demo {
+        background: url('../images/common/welcome-bg.webp');
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+
+    &__overlay {
+        @extend .overlay;
+        padding: 250px 0 200px 0;
+        @include responsive( $mobile ) {
+            padding: 150px 0;
+        }
+
+        @include responsive( $tablet-horizontal, $mobile-horizontal ) {
+            padding: 150px 0;
+        }
+    }
+
+    &__sub-title {
+        @include responsive( $tablet ) {
+            max-width: 450px;
+            margin: 0 auto;
+            line-height: 30px;
+            margin-bottom: 35px;
+        }
+
+        @include responsive( $mobile ) {
+            line-height: 36px;
+        }
+    }
+}
+
