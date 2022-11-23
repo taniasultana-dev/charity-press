@@ -1,0 +1,14 @@
+.section-heading{
+     &__title{
+        font-size: 42px;
+        font-weight: 500;
+        margin-bottom: 20px;
+        color: $black;
+     }
+
+     &__sub-title{
+        font-size: 14px;
+        font-weight: 500;
+        color: $purple-100;
+     }
+}
