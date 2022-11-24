@@ -76,11 +76,37 @@
             </div>
         </div>
     </div>
-
 </section><!---hero section end--->
-
-
-
-
+<!---laptop section start--->
+<section class="laptop">
+    <div class="container text-center">
+        <div class="section-heading text-center mb-70">
+            <h2 class="section-heading__title">PSD Included</h2>
+            <p class="section-heading__sub-title text-uppercase">multi-varations</p>
+        </div>
+    <div class="row">
+        <div class="col-12 col-md-12">
+            <div class="laptop__demo-img text-center mb-70">
+                <picture>
+                    <img width="1100" height="540" loading="lazy" src="./images/common/mock_psd.webp" alt="" srcset="">
+                </picture>
+            </div>
+            <div class="laptop__demo-content mb-40">
+                <a class="laptop__primary-btn" href="#">
+                    <span>phurchase now</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</section><!---laptop section end--->
+<!---site footer section start--->
+<footer class="site-footer text-center">
+    <span>Copyright by©
+        <a href="#">xpeedstudio</a>
+        - 2018  
+    </span>
+    
+</footer><!---site footer section end--->
 
 <?php include './partials/document.close.php' ?>

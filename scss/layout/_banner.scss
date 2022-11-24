@@ -34,10 +34,7 @@
         @extend .d-flex, .align-items-center, .gap-3, .justify-content-center;
         a {
             @extend .no-underline, .inline-block, .btn-base, .rounded-pill;
-            
-        }
-
-        
+        }    
     }
 
     &__primary-btn {
@@ -52,8 +49,6 @@
         --text-hover-color: var(--bs-white);
         --background-color: var(--orange-color);
         --background-hover-color: var(--sky-blue-color);
-    }
-
-    
+    }   
 }
 
