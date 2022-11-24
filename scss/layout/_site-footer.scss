@@ -1,0 +1,12 @@
+.site-footer {
+    padding: 25px 0;
+    background-color: $gray-100;
+    color: $white;
+    font-size: 14px;
+    font-weight: 600;
+
+    a {
+        @extend .no-underline;
+        color:$white;
+    }
+}

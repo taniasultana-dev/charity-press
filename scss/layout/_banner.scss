@@ -29,5 +29,26 @@
             line-height: 36px;
         }
     }
+
+    &__group-btn {
+        @extend .d-flex, .align-items-center, .gap-3, .justify-content-center;
+        a {
+            @extend .no-underline, .inline-block, .btn-base, .rounded-pill;
+        }    
+    }
+
+    &__primary-btn {
+        --text-color: var(--bs-white);
+        --text-hover-color: var(--bs-white);
+        --background-color: var(--sky-blue-color);
+        --background-hover-color: var(--blue-color);    
+    }
+
+    &__secondary-btn {
+        --text-color: var(--bs-white);
+        --text-hover-color: var(--bs-white);
+        --background-color: var(--orange-color);
+        --background-hover-color: var(--sky-blue-color);
+    }   
 }
 
