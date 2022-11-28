@@ -10,6 +10,12 @@
     transform: translate(-50%, -50%);
 }
 
+%position_center_x {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .overlay {
     background-color: rgba(34, 34, 34, 0.55);
     width: 100%;

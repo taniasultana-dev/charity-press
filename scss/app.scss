@@ -12,10 +12,13 @@
 @import './base/reset';
 
 // components
-@import './components/button';
+@import './components/button',
+        './components/section-heading';
 
 // layouts
-@import './layouts/banner';
+@import 
+    './layouts/banner',
+    './layouts/demo';
 
 // pages css
 @import './pages/demo';
