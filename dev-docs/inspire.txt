@@ -6,3 +6,6 @@ https://gist.github.com/rveitch/84cea9650092119527bc
 
 #Squoosh
 https://squoosh.app/
+
+#Own Carousel 
+https://owlcarousel2.github.io/OwlCarousel2/
