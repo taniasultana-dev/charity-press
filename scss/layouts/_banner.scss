@@ -1,0 +1,43 @@
+.banner {
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &--demo {
+        background-image: url(../images/common/welcome-bg.webp);
+        
+        .overlay {
+            padding: 170px 0;
+        }
+    }
+
+    &__title {
+        @extend .fw-bold, .fs-1, .mb-3x;
+    }
+
+    &__description {
+        @extend .fs-4, .fw-normal, .mb-3x;
+    }
+
+    &__img {
+        @extend .mb-3x;
+    }
+
+    &__group-btn {
+        @extend .d-flex, .align-items-center, .gap-3, .justify-content-center;        
+        a {
+           @extend .no-underline, .inline-block, .rounded-pill, .btn-base;
+        }
+    }
+
+    &__primary-btn {
+        --text-color: var(--bs-white);
+        --background-color: var(--sky-blue);
+        --hover-background-color: var(--blue-color); 
+    }
+
+    &__secondary-btn {
+        --text-color: var(--bs-white);
+        --background-color: var(--orange-color);
+        --hover-background-color: var(--sky-blue);
+    }
+}
