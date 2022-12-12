@@ -21,7 +21,7 @@
     &__demo-content {
         text-align: center;
         a {
-            @extend .no-underline, .inline-block, .btn-base, .rounded-pill, .text-nowrap;    
+             @extend .no-underline, .inline-block, .btn-base, .rounded-pill, .text-nowrap;    
         }
     }
 

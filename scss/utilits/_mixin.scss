@@ -1,3 +1,16 @@
+
+@mixin equal-size ($size : 200px) {
+    width: $size;
+    height: $size;
+    min-width: $size;
+    min-height: $size;
+}
+
+@mixin radius ($size : 50%) {
+    border-radius: $size;
+}
+
+
 @mixin responsive( $device-width: 575px, $device-height: false ) {
 
     @if $device-height == false {

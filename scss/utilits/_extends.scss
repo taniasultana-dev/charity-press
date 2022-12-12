@@ -1,17 +1,40 @@
-.default-transition {
+%default-transition {
+    -webkit-transition: all .4s ease;
     transition: all .4s ease;
 }
 
-.overlay {
-    background-color: rgba(34, 34, 34, 0.55);
-    width: 100%;
-    height: 100%;
+%position-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.no-underline{
+%banner-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(34, 34, 34, 0.55);
+}
+
+%flex {
+    display: flex;
+}
+
+%item-center {
+    align-items: center;
+}
+
+%justify-center {
+    justify-content: center;
+}
+
+%flex-column {
+    flex-direction: column;
+}
+.no-underline {
     text-decoration: none;
 }
 
-.inline-block{
+.inline-block {
     display: inline-block;
 }

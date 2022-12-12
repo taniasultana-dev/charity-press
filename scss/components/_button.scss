@@ -10,7 +10,7 @@
         background-color: var(--background-color);
         border-color: $white;
         color: var(--text-color);
-        @extend .default-transition;
+        @extend %default-transition;
 
         &:hover {
             background-color: var(--background-hover-color);
@@ -41,7 +41,7 @@
             left: 50%;
             transform: translateX(-50%);
             background-color: var(--background-hover-color);
-            @extend .default-transition;        
+            @extend %default-transition;        
         }
         
         &:hover {

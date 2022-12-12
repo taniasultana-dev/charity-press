@@ -2,11 +2,23 @@
     &--demo {
         background: url('../images/common/welcome-bg.webp');
         background-repeat: no-repeat;
-        background-position: top;
+        background-position:center top;
+    }
+
+    &--demo2 {
+        background: url('../images/common/slider_3.webp');
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+
+    &--demo3 {
+        background: url('../images/common/slider_1.webp');
+        background-repeat: no-repeat;
+        background-position: center top;
     }
 
     &__overlay {
-        @extend .overlay;
+        @extend %banner-overlay;
         padding: 250px 0 200px 0;
         @include responsive( $mobile ) {
             padding: 150px 0;
@@ -35,6 +47,7 @@
         a {
             @extend .no-underline, .inline-block, .btn-base, .rounded-pill;
         }    
+        
     }
 
     &__primary-btn {
@@ -49,6 +62,92 @@
         --text-hover-color: var(--bs-white);
         --background-color: var(--orange-color);
         --background-hover-color: var(--sky-blue-color);
-    }   
+    }
+
+    &__btn {
+        --text-color:var(--bs-white);
+        --text-hover-color: var(--bs-dark);
+        --background-hover-color:var(--bs-white);
+    }
+
+    &__nav {
+        @extend 
+            .position-absolute, .top-50, .start-0, 
+            .translate-middle-y, .d-flex, .justify-content-between,
+            .align-items-center, .w-100, %default-transition;
+
+        button {
+            @include equal-size(50px);
+            @extend .rounded-circle, .border, .border-0, %default-transition, .opacity-0;
+            background-color: $sky-blue;
+            color: var(--bs-white);
+            
+
+            &:hover {
+                background-color: $blue;
+            }
+        }
+    }
+
+    &:hover {
+        .banner__nav {
+            padding: 0 40px;
+
+             button {
+                @extend .opacity-100;
+             }
+        }
+    }
+
+     
+    .active {
+        .title,
+        .description,
+        .banner__btn,
+        .banner__primary-btn {
+            animation: animLeft 1s ease 100ms both;
+        }
+
+        .description {
+            animation-delay: 500ms;
+        }
+        
+        .banner__btn {
+            animation-delay: 800ms;
+        }
+
+        .banner__primary-btn {
+            animation-delay: 1200ms;
+        }
+    }
+            
+
+
+        
+
+    
+
+    
+    &--home-1 {
+        .overlay {
+            @extend %banner-overlay;
+            height: 90vh;
+
+            .container {
+                height: 90vh;
+                @extend %flex, %flex-column, %item-center, %justify-center;
+            }
+        }
+
+        .title {
+            font-size: 74px;
+            font-weight: 700;
+        }
+
+        .description {
+            font-size: 20px;
+            font-weight: 600;
+        }
+    }
 }
 

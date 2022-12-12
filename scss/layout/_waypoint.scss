@@ -1,0 +1,116 @@
+.waypoint {
+    padding: 120px 0;
+    overflow: hidden;
+    position: relative;
+
+    &::before {
+        position: absolute;
+        content: 'Archived';
+        top: 90px;
+        left: 450px;
+        font-size: 61px;
+        font-weight: 700;
+        color: $dark-white;
+        z-index: -1;
+        transform: scale(4.2);
+    }
+
+    &__line-title {
+        font-size: 25px;
+        font-weight: 400;
+        color: $sky-blue;
+        position: relative;
+
+        &::before {
+            position: absolute;
+            content: '';
+            top: 60%;
+            transform: translateY(-60%);
+            left: -30px;
+            width: 20px;
+            height: 2px;
+            background-color: $sky-blue;
+        }
+    }
+
+    &__title {
+        font-size: 52px;
+        font-weight: 700;
+        color:$black-100;
+        letter-spacing: -.2px;
+    }
+
+    &__content {
+
+        p {
+            color:$gray-200;
+            font-size: 16px;
+            font-weight: 400;
+            max-width: 470px;
+            line-height: 24px;
+            margin-bottom: 40px;
+        }
+        h5 {
+            font-size: 20px;
+            font-weight: 400;
+            color:$black-100;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style: none;
+            
+
+            li {
+                color:$gray-200;
+                font-size: 16px;
+                font-weight: 400;
+                position: relative;
+                left: -35px;
+
+                i {
+                    color: $sky-blue;
+                }
+            }
+        }
+    }
+
+    &__list {
+        margin-top: 50px;
+        list-style: none;
+        
+        li {
+            display: inline-block;
+            
+            &:not(:last-child){
+                margin-right: 40px;
+            }
+
+            p {
+                position: relative;
+
+                span {
+                    font-size: 48px;
+                }
+                sup {
+                    font-size: 18px;
+                    font-weight: 600;
+                    color: $sky-blue;
+                    position: relative;
+                    top: inherit;
+                    bottom: 20px;
+                    left: 0;
+                    vertical-align: super;
+                }
+            }
+
+            .title {
+                font-size: 13px;
+                position: absolute;
+                bottom: 15px;
+                @extend .text-nowrap;
+            }
+        }
+    }
+    
+    
+}

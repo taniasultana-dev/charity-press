@@ -36,7 +36,7 @@
         transform: translateX(-50%);
 
         a {
-            @extend .no-underline, .inline-block, .btn-base, .rounded-pill, .text-nowrap;    
+            @extend .no-underline, .inline-block, .btn-base, .rounded-pill, .text-nowrap;
         }
     }
 
