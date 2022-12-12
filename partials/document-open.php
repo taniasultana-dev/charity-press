@@ -19,7 +19,6 @@
     <script src="./libs/js/jquery-3.6.1.min.js" defer></script>
     <script src="./libs/js/owl.carousel.min.js" defer></script>
     <script src="./js/script.js" defer></script>
-    <script src="./libs/js/waypoints.min.js"></script>
-    <script src="./libs/js/jquery.counterup.min.js"></script>
+    
 </head>
 <body>
