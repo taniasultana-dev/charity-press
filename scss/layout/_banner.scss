@@ -46,8 +46,14 @@
         @extend .d-flex, .align-items-center, .gap-3, .justify-content-center;
         a {
             @extend .no-underline, .inline-block, .btn-base, .rounded-pill;
+            @include responsive($iphoneSE) {
+                margin-top: 30px;
+            }
+        }
+
+        @include responsive($iphoneSE) {
+           flex-direction: column;
         }    
-        
     }
 
     &__primary-btn {
@@ -121,20 +127,15 @@
         }
     }
             
-
-
-        
-
-    
-
-    
     &--home-1 {
         .overlay {
             @extend %banner-overlay;
-            height: 90vh;
+            min-height: 800px;
+            @include responsive($laptop) {
+                padding: 250px 0 100px 0;
+            }
 
             .container {
-                height: 90vh;
                 @extend %flex, %flex-column, %item-center, %justify-center;
             }
         }
@@ -142,6 +143,9 @@
         .title {
             font-size: 74px;
             font-weight: 700;
+            @include responsive($tablet) {
+                font-size: 60px;
+            }
         }
 
         .description {

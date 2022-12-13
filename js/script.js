@@ -18,5 +18,9 @@ jQuery(function( $ ){
         animateIn: 'fadeIn',
     })
     // end of banner slider
+    $('.counter').counterUp({
+        delay: 10,
+        time: 1000
+    });
 
 })

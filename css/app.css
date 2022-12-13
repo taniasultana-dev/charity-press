@@ -19316,6 +19316,16 @@ readers do not read off random characters that represent icons */
     line-height: 36px;
   }
 }
+@media screen and (max-width: 375px) {
+  .banner__group-btn a {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .banner__group-btn {
+    flex-direction: column;
+  }
+}
 .banner__primary-btn {
   --text-color: var(--bs-white);
   --text-hover-color: var(--bs-white);
@@ -19363,14 +19373,21 @@ readers do not read off random characters that represent icons */
   animation-delay: 1200ms;
 }
 .banner--home-1 .overlay {
-  height: 90vh;
+  min-height: 800px;
 }
-.banner--home-1 .overlay .container {
-  height: 90vh;
+@media screen and (max-width: 1400px) {
+  .banner--home-1 .overlay {
+    padding: 250px 0 100px 0;
+  }
 }
 .banner--home-1 .title {
   font-size: 74px;
   font-weight: 700;
+}
+@media screen and (max-width: 992px) {
+  .banner--home-1 .title {
+    font-size: 60px;
+  }
 }
 .banner--home-1 .description {
   font-size: 20px;
