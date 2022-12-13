@@ -1,0 +1,13 @@
+@mixin responsive( $device-width: 575px, $device-height: false ) {
+
+    @if $device-height == false {
+        @media screen and  ( max-width: $device-width ) {
+            @content;
+        }  
+    } @else {
+        @media screen and  ( max-width: $device-width ) and ( max-height: $device-height ) {
+            @content;
+        }  
+    }
+    
+}

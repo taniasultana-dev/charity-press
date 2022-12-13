@@ -1,31 +1,30 @@
 .btn-base {
-
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 700;
     
     &.has-border {
-        border-width: 2px;
+        border: 2px;
         border-style: solid;
         padding: 10px 34px;
-        background-color: transparent;
-        color: var(--background-color);
-        border-color: var(--background-color);
-        @extend %default_transition;
+        background-color: var(--background-color);
+        border-color: $white;
+        color: var(--text-color);
+        @extend .default-transition;
 
         &:hover {
-            background-color: var(--background-color);
-            color: var(--text-color);
+            background-color: var(--background-hover-color);
+            color: var(--text-hover-color);
         }
     }
 
-    &:not( .has-border ) {
-        padding: 12px 36px;
+    &:not(.has-border) {
+        padding: var(--padding, 12px 36px);
         background-color: var(--background-color);
         color: var(--text-color);
         position: relative;
         overflow: hidden;
-
+    
         span {
             position: relative;
             z-index: 2;
@@ -33,21 +32,27 @@
 
         &::before {
             content: '';
-            width: 0%;
+            width:0%;
             height: 100%;
             position: absolute;
-            top: 0;
-            opacity: 0;
-            left: 50%;
             z-index: 1;
+            opacity: 0;
+            top: 0;
+            left: 50%;
             transform: translateX(-50%);
-            background-color: var(--hover-background-color);
-            @extend %default_transition;
+            background-color: var(--background-hover-color);
+            @extend .default-transition;        
         }
-
+        
+        &:hover {
+            color: var(--text-hover-color);
+        }
+    
         &:hover:before {
             width: 100%;
             opacity: 1;
         }
     }
+
+    
 }

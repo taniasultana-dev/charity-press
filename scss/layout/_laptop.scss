@@ -1,0 +1,35 @@
+.laptop {
+    padding:50px 0;
+    overflow: hidden;
+
+    &__demo-img {
+       img {
+        width: 1100px;
+        height: auto;
+            @include responsive( $mobile-horizontal ) {
+                width: 400px;
+                height: auto;
+            }
+            
+            @include responsive( $mobile ) {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+
+    &__demo-content {
+        text-align: center;
+        a {
+            @extend .no-underline, .inline-block, .btn-base, .rounded-pill, .text-nowrap;    
+        }
+    }
+
+    &__primary-btn {
+        --padding: 14px 39px;
+        --text-color: var(--bs-white);
+        --text-hover-color: var(--bs-white);
+        --background-color: var(--sky-blue-color);
+        --background-hover-color: var(--blue-color); 
+    }
+}
