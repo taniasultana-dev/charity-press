@@ -30,6 +30,9 @@
             width: 20px;
             height: 2px;
             background-color: $sky-blue;
+            @include responsive($iphoneSE) {
+                display: none;
+            }
         }
     }
 
@@ -83,6 +86,10 @@
             
             &:not(:last-child){
                 margin-right: 40px;
+                @include responsive($iphoneSE) {
+                    margin: 0;
+                    margin-right: 5px;
+                }
             }
 
             p {

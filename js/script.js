@@ -19,8 +19,8 @@ jQuery(function( $ ){
     })
     // end of banner slider
     $('.counter').counterUp({
-        delay: 10,
-        time: 1000
+        delay: 30,
+        time: 2000
     });
 
 })

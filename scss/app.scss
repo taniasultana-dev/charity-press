@@ -1,13 +1,14 @@
 // Then import Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
-@import './libs/fontawesome/fontawesome.scss';
-@import './libs/fontawesome/solid.scss';
-@import './libs/fontawesome/regular.scss';
+@import 
+        './libs/fontawesome/fontawesome.scss',
+        './libs/fontawesome/solid.scss',
+        './libs/fontawesome/regular.scss';
 
 //utilits
 @import
-       './utilits/variable',
-       './utilits/extends',
+        './utilits/variable',
+        './utilits/extends',
         './utilits/mixin',
         './utilits/keyframes';
         
@@ -15,15 +16,14 @@
 @import './base/reset';
 
 //components
-@import './components/button';
-@import './components/section-heading';
+@import 
+        './components/button',
+        './components/section-heading';
+
 //layout
-@import './layout/banner';
-@import './layout/hero';
-@import './layout/laptop';
-@import './layout/site-footer';
-@import './layout/waypoint';
-
-
-
-
+@import 
+        './layouts/banner',
+        './layouts/hero',
+        './layouts/laptop',
+        './layouts/site-footer',
+        './layouts/waypoint';
