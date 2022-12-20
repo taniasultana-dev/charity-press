@@ -13,6 +13,9 @@
         color: $dark-white;
         z-index: -1;
         transform: scale(4.2);
+        @include responsive($tablet) {
+            display: none;
+        }
     }
 
     &__line-title {
@@ -88,7 +91,11 @@
                 margin-right: 40px;
                 @include responsive($iphoneSE) {
                     margin: 0;
-                    margin-right: 5px;
+                    margin-right: 5px !important;
+                }
+
+                @include responsive($mobile-horizontal) {
+                    margin-right: 55px;
                 }
             }
 

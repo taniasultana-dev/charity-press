@@ -20,7 +20,7 @@ jQuery(function( $ ){
     // end of banner slider
     $('.counter').counterUp({
         delay: 30,
-        time: 2000
+        time: 1500
     });
 
 })

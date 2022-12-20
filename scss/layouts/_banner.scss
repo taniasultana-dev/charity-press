@@ -1,4 +1,11 @@
 .banner {
+     &--demo {
+            background-image: url('../images/common/welcome-bg.webp');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position:center top;
+        }
+
     &__item {
         background-size: cover;
         background-repeat: no-repeat;
@@ -130,8 +137,8 @@
     &--home-1 {
         .overlay {
             @extend %banner-overlay;
-            padding: 250px 0;
-            @include responsive($laptop) {
+            padding: 250px 0 200px 0;
+            @include responsive($tablet) {
                 padding: 180px 0 100px 0;
             }
 
