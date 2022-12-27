@@ -9,10 +9,12 @@
     }
 
     &__dashed {
-        font-size: 20px;
-        font-weight: 600;
-        color: rgba(0, 0, 0, .4);
+        width: 35px;
+        height: 2px;
+        display: inline-block;
+        background-image: repeating-linear-gradient(to right, #041d57 0%, #041d57 16%, rgba(255, 255, 255, 0) 16%, rgba(255, 255, 255, 0) 32%, #041d57 32%, #041d57 48%, rgba(255, 255, 255, 0) 48%, rgba(255, 255, 255, 0) 64%, #041d57 64%, #041d57 80%, rgba(255, 255, 255, 0) 80%, rgba(255, 255, 255, 0) 96%, rgba(4, 29, 87, 0) 96%, rgba(4, 29, 87, 0) 100%);
     }
+    
 
     &__description {
         font-size: 18px;
@@ -42,12 +44,13 @@
         position: relative;
         height: 6px;
         background-color: $white;
-        width: 100%;
+        
 
         .skill-tarck {
             background-color: $sky-blue;
             height: 100%;
-            overflow: visible;
+            width: calc(40px - 13px);
+            overflow: visible !important;
             position: relative;
 
             p {
@@ -100,12 +103,16 @@
                 margin-bottom: 20px;
 
                 p {
-                    font-size: 18px;
-                    font-weight: 700;
                     color: $black-100;
-                    line-height: 27px;
-                    margin: 0;
+                    font-weight: 700;
+                    font-size: 18px;
+
+                    span.number-percentage-count {
+                        font-weight: 700;
+                        color: $black-100 !important;
+                    }
                 }
+                
 
                 span {
                     font-size: 16px;

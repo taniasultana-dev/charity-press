@@ -64,6 +64,7 @@
             </div>
         </div> <!-- end of .slider-3 -->
 </section><!--banner home 1 end-->
+<!--waypoint section start-->
 <section class="waypoint">
    <div class="container">
      <div class="row">
@@ -137,12 +138,12 @@
      </div>
    </div>
 </section>
-<section class="popular">
+<section class="popular waypoint-tigger">
     <div class="container">
         <div class="row mb-60">
             <div class="col-md-9 col-xl-9">
-                <h2 class="popular__title">popular causes</h2>
-                <span class="popular__dashed">---</span>
+                <h2 class="popular__title">Popular causes</h2>
+                <span class="popular__dashed"></span>
                 <p class="popular__description">
                     FundPress has built a platform focused on aiding entrepreneurs, startups, and
                     companies raise capital from anyone.
@@ -159,10 +160,10 @@
                 <div class="popular__item-card">
                     <div class="popular__item-header">
                         <img class="w-full" width="350" height="227" src="./images/common/causes_4.webp" alt="" srcset="">
-                        <div class="popular__skill-bar">
-                            <div class="skill-tarck width-90">
+                        <div class="popular__skill-bar xs-skill-bar">
+                            <div class="skill-tarck xs-skill-track">
                                 <p>
-                                    <span>90%</span>
+                                <span class="number-percentage-count number-percentage" data-value="90" data-animation-duration="3500"></span>%
                                 </p>
                             </div>
                         </div>
@@ -176,11 +177,13 @@
                         <a href="#" class="mb-20">Splash Drone 3 a Fully Waterproof Drone that floats</a>
                         <ul class="list-content">
                             <li>
-                                <p>$67.000</p>
+                                <p> $67.000</p>
                                 <span>Pledged</span>
                             </li>
                             <li>
-                                 <p>90%</p>
+                                <p>
+                                    <span class="number-percentage-count number-percentage" data-value="90" data-animation-duration="3500"></span>%
+                               </p>
                                 <span>Funded</span>
                             </li>
                             <li>
@@ -208,12 +211,12 @@
             <div class="col-lg-4 col-md-6 mb-30">
                 <div class="popular__item-card">
                     <div class="popular__item-header">
-                        <img class="w-full" width="350" height="227" src="./images/common/causes_5.webp" alt="" srcset="">
-                        <div class="popular__skill-bar">
-                            <div class="skill-tarck width-59">
-                                <p>
-                                    <span>59%</span>
-                                </p>
+                        <img class="w-full cover" width="350" height="227" src="./images/common/causes_5.webp" alt="" srcset="">
+                        <div class="popular__skill-bar xs-skill-bar">
+                            <div class="skill-tarck xs-skill-track">
+                            <p>
+                                <span class="number-percentage-count number-percentage" data-value="59" data-animation-duration="3500"></span>%
+                            </p>
                             </div>
                         </div>
                     </div>
@@ -230,7 +233,9 @@
                                 <span>Pledged</span>
                             </li>
                             <li>
-                                 <p>59%</p>
+                                <p>
+                                    <span class="number-percentage-count number-percentage" data-value="59" data-animation-duration="3500"></span>%
+                               </p>
                                 <span>Funded</span>
                             </li>
                             <li>
@@ -242,7 +247,7 @@
                         <div class="content-footer">
                             <div class="round-pic">
                                 <picture>
-                                    <img width="40" height="40px" src="./images/icon/avatar_2.webp" alt="" srcset="">
+                                    <img class="cover" width="40" height="40px" src="./images/icon/avatar_2.webp" alt="" srcset="">
                                 </picture>
                             </div>
                             <div class="round-title">
@@ -258,12 +263,12 @@
             <div class="col-lg-4 col-md-6 mb-30">
                 <div class="popular__item-card">
                     <div class="popular__item-header">
-                        <img class="w-full" width="350" height="227" src="./images/common/causes_6.webp" alt="" srcset="">
-                        <div class="popular__skill-bar">
-                            <div class="skill-tarck width-35">
-                                <p>
-                                    <span>35%</span>
-                                </p>
+                        <img class="w-full cover" width="350" height="227" src="./images/common/causes_6.webp" alt="" srcset="">
+                        <div class="popular__skill-bar xs-skill-bar">
+                            <div class="skill-tarck xs-skill-track">
+                            <p>
+                                <span class="number-percentage-count number-percentage" data-value="35" data-animation-duration="3500"></span>%
+                            </p>
                             </div>
                         </div>
                     </div>
@@ -280,7 +285,9 @@
                                 <span>Pledged</span>
                             </li>
                             <li>
-                                 <p>35%</p>
+                                <p>
+                                    <span class="number-percentage-count number-percentage" data-value="35" data-animation-duration="3500"></span>%
+                               </p>
                                 <span>Funded</span>
                             </li>
                             <li>
@@ -308,12 +315,12 @@
             <div class="col-lg-4 col-md-6 mb-30">
                 <div class="popular__item-card">
                     <div class="popular__item-header">
-                        <img class="w-full" width="350" height="227" src="./images/common/causes_7.webp" alt="" srcset="">
-                        <div class="popular__skill-bar">
-                            <div class="skill-tarck width-85">
-                                <p>
-                                    <span>85%</span>
-                                </p>
+                        <img class="w-full cover" width="350" height="227" src="./images/common/causes_7.webp" alt="" srcset="">
+                        <div class="popular__skill-bar xs-skill-bar">
+                            <div class="skill-tarck xs-skill-track">
+                            <p>
+                                <span class="number-percentage-count number-percentage" data-value="85" data-animation-duration="3500"></span>%
+                            </p>
                             </div>
                         </div>
                     </div>
@@ -330,7 +337,9 @@
                                 <span>Pledged</span>
                             </li>
                             <li>
-                                 <p>85%</p>
+                                <p>
+                                    <span class="number-percentage-count number-percentage" data-value="85" data-animation-duration="3500"></span>%
+                               </p>
                                 <span>Funded</span>
                             </li>
                             <li>
@@ -342,7 +351,7 @@
                         <div class="content-footer">
                             <div class="round-pic">
                                 <picture>
-                                    <img width="40" height="40px" src="./images/icon/avatar_4.webp" alt="" srcset="">
+                                    <img class="cover" width="40" height="40px" src="./images/icon/avatar_4.webp" alt="" srcset="">
                                 </picture>
                             </div>
                             <div class="round-title">
@@ -358,11 +367,11 @@
             <div class="col-lg-4 col-md-6 mb-30">
                 <div class="popular__item-card">
                     <div class="popular__item-header">
-                        <img class="w-full" width="350" height="227" src="./images/common/causes_8.webp" alt="" srcset="">
-                        <div class="popular__skill-bar">
-                            <div class="skill-tarck width-74">
+                        <img class="w-full cover" width="350" height="227" src="./images/common/causes_8.webp" alt="" srcset="">
+                        <div class="popular__skill-bar xs-skill-bar">
+                            <div class="skill-tarck xs-skill-track">
                                 <p>
-                                    <span>74%</span>
+                                    <span class="number-percentage-count number-percentage" data-value="74" data-animation-duration="3500"></span>%
                                 </p>
                             </div>
                         </div>
@@ -380,7 +389,9 @@
                                 <span>Pledged</span>
                             </li>
                             <li>
-                                 <p>74%</p>
+                                <p>
+                                    <span class="number-percentage-count number-percentage" data-value="74" data-animation-duration="3500"></span>%
+                               </p>
                                 <span>Funded</span>
                             </li>
                             <li>
@@ -392,7 +403,7 @@
                         <div class="content-footer">
                             <div class="round-pic">
                                 <picture>
-                                    <img width="40" height="40px" src="./images/icon/avatar_5.webp" alt="" srcset="">
+                                    <img class="cover" width="40" height="40px" src="./images/icon/avatar_5.webp" alt="" srcset="">
                                 </picture>
                             </div>
                             <div class="round-title">
@@ -409,10 +420,10 @@
                 <div class="popular__item-card">
                     <div class="popular__item-header">
                         <img class="w-full" width="350" height="227" src="./images/common/causes_11.webp" alt="" srcset="">
-                        <div class="popular__skill-bar">
-                            <div class="skill-tarck width-89">
+                        <div class="popular__skill-bar xs-skill-bar">
+                            <div class="skill-tarck xs-skill-track">
                                 <p>
-                                    <span>89%</span>
+                                    <span class="number-percentage-count number-percentage" data-value="89" data-animation-duration="3500"></span>%
                                 </p>
                             </div>
                         </div>
@@ -430,8 +441,10 @@
                                 <span>Pledged</span>
                             </li>
                             <li>
-                                 <p>89%</p>
-                                <span>Funded</span>
+                               <p>
+                                <span class="number-percentage-count number-percentage" data-value="85" data-animation-duration="3500"></span>%
+                               </p>
+                               <span>Funded</span>
                             </li>
                             <li>
                                 <p>2</p>
@@ -442,7 +455,7 @@
                         <div class="content-footer">
                             <div class="round-pic">
                                 <picture>
-                                    <img width="40" height="40px" src="./images/icon/avatar_6.webp" alt="" srcset="">
+                                    <img class="cover" width="40" height="40px" src="./images/icon/avatar_6.webp" alt="" srcset="">
                                 </picture>
                             </div>
                             <div class="round-title">
@@ -455,11 +468,45 @@
                     </div>
                 </div> 
             </div><!-- end item 6--->
-               
-           
+        </div>
+</section><!--waypoint section end-->
+<!--welcome section start-->
+<section class="welcome">
+   <div class="container">
+    <div class="row">
+        <div class="col-md-12 col-lg-6">
+            <div class="welcome__content">
+            <h2>Welcome to CharityPress please rise your hand</h2>
+            <p>The CharityPress community was named a “Top 25 Best Global Philanthropist” by Barron’s. We beat Oprah. And, Mashable named CharityPress something like “the best place to raise money online for your favorite causes”</p>
+            <blockquote class="mb-40">
+             If you don't understand how fast and easy it is to so long for your favorite charity on FundPress, please try it.
+            <span>how it works</span>pages,<span>contact us</span>
+            </blockquote>
+            <a class="welcome__primary-btn mb-40" href="#">
+                <span>
+                    <i class="fa-solid fa-heart"></i>
+                    <span> Donate Now</span>
+                </span>
+            </a>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-30">
+            <div class="welcome__image">
+                <picture>
+                    <img class="w-full cover" width="255" height="416" src="./images/icon/features_1.webp" alt="welcome-image">
+                </picture>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+            <div class="welcome__image">
+                <picture>
+                    <img class="w-full cover" width="255" height="416" src="./images/icon/features_2.webp" alt="welcome-image">
+                </picture>
+            </div>
+        </div>
     </div>
-
-</section>
+   </div>
+</section><!--welcome section end-->
 
 
 <?php include './partials/document.close.php' ?>
