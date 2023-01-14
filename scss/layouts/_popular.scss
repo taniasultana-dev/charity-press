@@ -1,6 +1,9 @@
 .popular {
     background-color: $dark-white;
     padding: 120px 0;
+    @include responsive($mobile) {
+        padding: 50px 0;
+    }
 
     &__title {
         font-size: 52px;

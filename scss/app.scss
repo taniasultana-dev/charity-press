@@ -3,7 +3,8 @@
 @import 
         './libs/fontawesome/fontawesome.scss',
         './libs/fontawesome/solid.scss',
-        './libs/fontawesome/regular.scss';
+        './libs/fontawesome/regular.scss',
+        './libs/fontawesome/brands.scss';
 
 //utilits
 @import
@@ -28,4 +29,12 @@
         './layouts/site-footer',
         './layouts/waypoint',
         './layouts/popular',
-        './layouts/welcome';
+        './layouts/welcome',
+        './layouts/activites',
+        './layouts/feature',
+        './layouts/funded',
+        './layouts/volunteer',
+        './layouts/events',
+        './layouts/brand',
+        './layouts/journal',
+        './layouts/footer';

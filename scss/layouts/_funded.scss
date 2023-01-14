@@ -1,0 +1,46 @@
+.funded {
+    padding: 120px 0;
+    
+   &__headding {
+       text-align: center;
+       
+     h2 {
+        font-size: 52px;
+        font-weight: 700;
+        color: $black-100;
+        @include responsive($tablet) {
+          font-size: 33px;
+        }
+
+        span {
+            color: $sky-blue;
+        }
+     }
+
+  }
+
+  &__promo {
+    text-align: left;
+
+    i {
+      font-size: 68px;
+      color: $sky-blue;
+      display: inline-block;
+      margin-bottom: 30px;
+    }
+
+    h5 {
+      font-size: 20px;
+      font-weight: 700;
+      color: $black-100;
+      margin-bottom: 30px;
+    }
+
+    p {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 29px;
+      color: $gray-200;
+    }
+  }
+}

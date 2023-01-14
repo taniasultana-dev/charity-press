@@ -1,0 +1,105 @@
+.feature {
+    margin-top: -86px;
+    @include responsive($tablet) {
+        margin: 0;
+    }
+
+    &__box-wrapper {
+        align-items: start;
+    }
+
+    &__box {
+        background-color: $sky-blue;
+        align-self: center;
+        min-height: 310px;
+        padding: 80px 40px;
+        text-align: center;
+        @extend .d-flex, .justify-content-center, .align-items-center;
+        @include responsive($tablet) {
+            min-height: 270px;
+            padding: 40px 20px;
+        }
+    }
+
+    &__box-content {
+
+        h3 {
+            font-size: 34px;
+            @include responsive($mobile) {
+                font-size: 32px;
+            }
+
+        }
+
+        p {
+            font-size: 18px;
+            @include responsive($mobile-horizontal) {
+                font-size: 19px !important;
+            }
+
+            @include responsive($tablet) {
+                font-size: 20px;
+            } 
+        }
+
+        a {
+            @extend .no-underline, .rounded-pill, .inline-block, .btn-base;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+
+            li {
+                display: inline-block;
+                margin: 0 8px 0 0;
+                @include responsive($iphoneSE) {
+                    margin: 0 5px 0 0;
+                    padding: 0
+                }
+
+                @include responsive($tablet) {
+                    margin: 0 4px 0 0;
+                }
+
+
+                a {
+                   @include equal-size(50px);
+                   text-align: center;
+                   border-radius: 100%;
+                   background-color: rgba(0,0,0,.1) !important;
+                   color: $white !important;
+                   padding: 0 !important;
+                   font-size: 17px;
+                   display: flex;
+                   align-items: center;
+                   justify-content: center;
+
+                   &:hover {
+                     background-color: $blue !important;
+                   }
+
+                
+                
+                }
+            }
+        }
+    }
+
+    &__primary-btn {
+        --text-color: var(--bs-white);
+        --text-hover-color: var(--bs-white);
+        --background-color: var(--blue-color);
+        --background-hover-color: var(--sky-blue-color); 
+    }
+
+    .hilight {
+        min-height: 450px;
+        padding: 80px 40px;
+        @include responsive($tablet) {
+            min-height: 270px;
+            padding: 40px 20px;
+            background-color: $dark-sky-blue;
+        }
+    }
+}

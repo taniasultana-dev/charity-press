@@ -1,0 +1,168 @@
+.journal {
+    padding: 120px 0;
+
+    &__title {
+        font-size: 52px;
+        color: $black-100;
+        font-weight: 700;
+        @include responsive($mobile-horizontal) {
+            font-size: 32px;
+        }
+    }
+
+    &__dashed {
+        width: 35px;
+        height: 2px;
+        display: inline-block;
+        margin-bottom: 10px;
+        background-image: repeating-linear-gradient(to right, #041d57 0%, #041d57 16%, rgba(255, 255, 255, 0) 16%, rgba(255, 255, 255, 0) 32%, #041d57 32%, #041d57 48%, rgba(255, 255, 255, 0) 48%, rgba(255, 255, 255, 0) 64%, #041d57 64%, #041d57 80%, rgba(255, 255, 255, 0) 80%, rgba(255, 255, 255, 0) 96%, rgba(4, 29, 87, 0) 96%, rgba(4, 29, 87, 0) 100%);
+    }
+    
+
+    &__description {
+        font-size: 18px;
+        font-weight: 400;
+        color: $gray-200;
+        max-width: 800px;
+        line-height: 29px;
+    }
+
+    a {
+        @extend .no-underline, .rounded-pill, .inline-block, .btn-base;
+    }
+
+    &__primary-btn {
+        --text-color: var(--bs-white);
+        --text-hover-color: var(--bs-white);
+        --background-color: var(--sky-blue-color);
+        --background-hover-color: var(--blue-color); 
+    }
+
+    &__single-journal {
+        box-shadow: 0px 3px 5px 0px rgb(0 0 0 / 10%);
+        margin-bottom: 30px;
+        @extend %default-transition;
+        
+        
+        .entry-thumbnail {
+            position: relative;
+
+            .post-author {
+                position: absolute;
+                bottom: -8px;
+                left: 0;
+                width: 100%;
+                padding: 0 20px;
+                display: inline-flex;
+                align-items: center;
+
+
+                .round-avatar {
+                    position: relative;
+                    width: 45px;
+                    height: 45px;
+                    overflow: visible;
+                    z-index: 1;
+                    margin-right: -5px;
+
+                    & img {
+                        border-radius: 100%;
+                        margin-top: 7px;
+                        margin-left: 1px;
+                    }
+
+                    &::before {
+                        position: absolute;
+                        content: "";
+                        top: 0;
+                        left: 50%;
+                        height: calc(100% + 20px);
+                        width: calc(100% + 50px);
+                        background-image: url('../images/icon/avatar-background.webp');
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        background-size: cover;
+                        z-index: -1;
+                        transform: translateX(-50%);
+                    }
+        
+                }
+
+                .author-name a {
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: $white;
+                    text-transform: capitalize !important;
+                }
+
+            }
+
+
+        }
+
+        .entry-header {
+            padding: 40px 30px 30px;
+
+            .entry-meta {
+                margin-bottom: -5px;
+
+                span a {
+                    font-size: 18px;
+                    color: $sky-blue;
+                    display: inline-block;
+                    line-height: 16px;
+                    text-transform: capitalize;
+                    margin-bottom: 0;
+                }
+            }
+
+            .entry-title {
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 24px;
+                margin-bottom: 0;
+
+                a {
+                    color: $black-100;
+                }
+
+            }
+
+        }
+
+        .separetor {
+            height: 1px;
+            width: 100%;
+            background-color: $gray-600;
+            display: block;
+            margin-bottom: 0;
+
+        }
+
+        .post-meta {
+            padding: 20px 30px;
+
+            span {
+                font-size: 16px;
+                color: $deep-gray;
+                font-weight: 500;
+                line-height: 16px;
+                display: inline-block;
+
+                &:not(:last-child) {
+                    margin-right: 30px;
+                }
+
+                i {
+                    margin-right: 5px;
+                }
+
+                a {
+                    padding: 0 !important;
+                }
+            }
+        }
+
+    }
+
+}

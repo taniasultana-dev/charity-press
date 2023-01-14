@@ -1,0 +1,118 @@
+.events {
+    padding: 120px 0;
+
+    &__title {
+        font-size: 52px;
+        font-weight: 700;
+        color: $black-100;
+        margin-bottom: 5px;
+    }
+
+    &__dashed {
+        width: 35px;
+        height: 2px;
+        margin-bottom: 5px;
+        display: inline-block;
+        background-image: repeating-linear-gradient(to right, #041d57 0%, #041d57 16%, rgba(255, 255, 255, 0) 16%, rgba(255, 255, 255, 0) 32%, #041d57 32%, #041d57 48%, rgba(255, 255, 255, 0) 48%, rgba(255, 255, 255, 0) 64%, #041d57 64%, #041d57 80%, rgba(255, 255, 255, 0) 80%, rgba(255, 255, 255, 0) 96%, rgba(4, 29, 87, 0) 96%, rgba(4, 29, 87, 0) 100%);
+    }
+
+    &__description {
+        font-size: 18px;
+        color: $gray-200;
+    }
+
+    &__single-event {
+        min-height: 230px;
+        margin-bottom: 30px;
+
+        .event-image {
+            position: relative;
+
+            .entry-date {
+                color: $white;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                translate: -50% -50%;
+    
+                .entry-date-day {
+                    font-size: 48px;
+                    font-weight: 600;
+                    display: block;
+                    margin-bottom: 0;
+                }
+    
+                .entry-date-month {
+                    font-size: 20px;
+                    font-weight: 400;
+                    display: block;
+                    text-transform: capitalize;
+                    margin-bottom: 0;
+                }    
+            }
+
+            .overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                height: 100%;
+                width: 100%;
+                background-color: rgba(0,0,0,.3);
+            }
+        }
+
+        .event-content {
+
+            h4 {
+                font-size: 20px;
+                font-weight: 700;
+                color: $black-100;
+                margin-bottom: 15px;
+                cursor: pointer;
+            }
+
+            p {
+                color: $gray-200;
+                margin-bottom: 25px;
+            }
+
+            .event-countdown-timer {
+                width: 100%;
+                display: inline-flex;
+                margin-bottom: 40px;
+
+                .timer-count {
+                    display: block;
+                    width: 100%;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 16px;
+
+                    .timer-title {
+                        display: block;
+                        font-size: 14px;
+                        color: $gray-200;
+                        font-weight: 400;
+                        margin-top: 15px;
+                    }
+                }    
+            }
+
+            a {
+                @extend .no-underline, .inline-block, .btn-base, .rounded-pill, .text-nowrap;  
+            }
+        }
+    
+    }
+
+    &__primary-btn {
+        --text-color: var(--bs-white);
+        --text-hover-color: var(--bs-white);
+        --background-color: var(--blue-color);
+        --background-hover-color: var(--sky-blue-color); 
+    }
+
+    
+}

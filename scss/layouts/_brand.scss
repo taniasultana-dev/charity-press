@@ -1,0 +1,80 @@
+.brand {
+    background-color: $dark-white;
+    background-image: url('../images/common/map.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center center;
+    padding: 75px 0;
+
+    &__partner-content {
+        padding-top: 70px;
+
+        p {
+            font-size: 18px;
+            color: $gray-200;
+            margin-bottom: 50px;
+        }
+
+        a {
+            @extend .no-underline, .inline-block, .btn-base, .rounded-pill, .text-nowrap;  
+        }
+    }
+
+    &__headding {
+        margin-bottom: 40px;
+
+        h2 {
+            font-size: 52px;
+            font-weight: 700;
+            color: $black-100;
+            letter-spacing: -.2px;
+            
+            @include responsive($mobile-horizontal) {
+                font-size: 34px;
+            }
+
+            span {
+                color: $sky-blue;
+            }
+        }
+    }
+
+    &__primary-btn {
+        --text-color: var(--bs-white);
+        --text-hover-color: var(--bs-white);
+        --background-color: var(--blue-color);
+        --background-hover-color: var(--sky-blue-color);  
+    }
+
+    &__fundpress-partners {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+
+        li {
+            display: inline-block;
+            margin-right: 20px;
+            margin-bottom: 20px;
+
+            a {
+                @include equal-size(180px);
+                box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%);
+                background-color: $white;
+                border-radius: 100%;
+                display: inline-flex !important;
+                justify-content: center;
+                align-items: center;
+                margin: 0 auto;
+                padding: 0 !important;
+             
+            }
+        }
+
+        li:first-child,:last-child {
+            display: block;
+            
+        }
+
+    }
+}
