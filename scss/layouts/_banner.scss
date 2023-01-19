@@ -144,7 +144,13 @@
 
             .container {
                 @extend %flex, %flex-column, %item-center, %justify-center;
+
+                img {
+                    width: 496px;
+                    height: 196px;
+                }
             }
+
         }
 
         .title {

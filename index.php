@@ -53,7 +53,7 @@
                             <img loading="lazy" src="./images/common/demo_2.webp" alt="" srcset="">
                         </picture>
                         <div class="hero__demo-content">
-                            <a class="hero__primary-btn" href="#">
+                            <a class="hero__primary-btn" href="home-2.php">
                                 <span>Index Version 2</span>
                             </a>
                         </div>

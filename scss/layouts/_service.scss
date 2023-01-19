@@ -1,0 +1,89 @@
+.service {
+    margin-top: -100px;
+    padding-bottom: 100px;
+
+    &__image-1 {
+        background-image: url('../images/icon/category_1.webp');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:center center;
+        position: relative;
+        z-index: 1;
+
+        .overlay {
+            background-color: rgba(24, 191, 195, .8);
+            z-index: 1;
+            padding: 35px 30px;
+            color: $white;
+
+            i {
+                font-size: 68px;
+                margin-bottom: 30px;
+                display: inline-block;
+            }
+    
+            h5 {
+                font-size: 29px;
+                font-weight: 700;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    &__image-2 {
+        background-image: url('../images/icon/category_2.webp');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:center center;
+        position: relative;
+        z-index: 1;
+
+        .overlay {
+            background-color: rgba(144, 100, 191, .8);
+            z-index: 1;
+            padding: 35px 30px;
+            color: $white;
+
+            i {
+                font-size: 68px;
+                margin-bottom: 30px;
+                display: inline-block;
+            }
+    
+            h5 {
+                font-size: 29px;
+                font-weight: 700;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    &__image-3 {
+        background-image: url('../images/icon/category_3.webp');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:center center;
+        position: relative;
+        z-index: 1;
+
+        .overlay {
+            background-color: rgba(54, 159, 244, .8);
+            z-index: 1;
+            padding: 35px 30px;
+            color: $white;
+
+            i {
+                font-size: 68px;
+                margin-bottom: 30px;
+                display: inline-block;
+            }
+    
+            h5 {
+                font-size: 29px;
+                font-weight: 700;
+                margin-bottom: 20px;
+            }
+            
+        }
+    }
+}

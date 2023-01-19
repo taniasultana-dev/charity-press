@@ -1,14 +1,13 @@
 <?php  
     // document open
-    include './partials/document-open.php';
-    include './partials/navbar.php';
+    include './partials/document-open.php'; 
 ?>
-
 <section class="banner banner--home-1">
 <div class="owl-carousel banner-slider">
-        <div class="item banner__item banner__item--demo slider-1">
+        <div class="item banner__item banner__item--demo3 slider-1">
             <div class="overlay">
                 <div class="container text-center text-white">
+                    <img width="496" height="196" class="cover" src="./images/icon/welcome-text-1.webp" alt="welcome-text-1.webp">
                     <h1 class="title mb-30">Hunger is stalking the globe</h1>
                     <p class="description mb-40">Hundreds of thousands of children experiencing or witnessing assault <br> and other gender-based violence.</p>
                     <div class="banner__group-btn">
@@ -25,9 +24,10 @@
                 </div>
             </div>
         </div> <!-- end of .slider-1 -->
-        <div class="item banner__item banner__item--demo2 slider-2">
+        <div class="item banner__item banner__item--demo slider-2">
             <div class="overlay">
                 <div class="container text-center text-white">
+                    <img width="496" height="196" class="cover" src="./images/icon/welcome-text-1.webp" alt="welcome-text-1.webp">
                     <h1 class="title mb-30">Hunger is stalking the globe</h1>
                     <p class="description mb-40">Hundreds of thousands of children experiencing or witnessing assault <br> and other gender-based violence.</p>
                     <div class="banner__group-btn">
@@ -44,16 +44,17 @@
                 </div>
             </div>
         </div> <!-- end of .slider-2 -->
-        <div class="item banner__item banner__item--demo3 slider-2">
+        <div class="item banner__item banner__item--demo2 slider-2">
             <div class="overlay">
                 <div class="container text-center text-white">
+                <img width="496" height="196" class="cover" src="./images/icon/welcome-text-1.webp" alt="welcome-text-1.webp">
                 <h1 class="title mb-30">Hunger is stalking the globe</h1>
                     <p class="description mb-40">Hundreds of thousands of children experiencing or witnessing assault <br> and other gender-based violence.</p>
                     <div class="banner__group-btn">
                         <a class="banner__btn has-border" href="#">
                             <span>join us now</span>
                         </a>  
-                        <a class="banner__primary-btn" href="#">
+                        <a class="banner__primary-btn mb-40" href="#">
                             <span>
                                 <i class="fa-solid fa-heart"></i>
                                 <span> Donate Now</span>
@@ -64,80 +65,76 @@
             </div>
         </div> <!-- end of .slider-3 -->
 </section><!--banner home 1 end-->
-<!--waypoint section start-->
-<section class="waypoint">
-   <div class="container">
-     <div class="row">
-        <div class="col-md-12 col-lg-6">
-            <div class="waypoint__content">
-                <h2 class="waypoint__line-title">our mission</h2>
-                <h3 class="waypoint__title">Archived</h3>
-                <p>We register and regulate charities in England and Wales, to ensure that the public can support charities with confidence. As registrar, we are responsible for maintaining an accurate.</p>
-                <h5>Our strategic priorities up to 2018 are:</h5>
+<!--service section start-->
+<section class="service">
+ <div class="container">
+    <div class="row">
+        <div class="col-lg-4 col-md-4 mb-30">
+            <div class="service__image-1 service-promo">
+                <div class="overlay">
+                <i class="icon-groceries"></i>
+                <h5>Food Donate</h5>
+                <p>In Balukhali Camp in Cox’s Bazar, Bangladesh, women lack privacy, safe places to sleep, sufficient sanitation facilities and mental health support.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 mb-30">
+            <div class="service__image-2">
+                <div class="overlay">
+                <i class="icon-care"></i>
+                <h5>Medical Care</h5>
+                <p>In Balukhali Camp in Cox’s Bazar, Bangladesh, women lack privacy, safe places to sleep, sufficient sanitation facilities and mental health support.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 mb-30">
+            <div class="service__image-3 service-promo">
+                <div class="overlay">
+                <i class="icon-open-book"></i>
+                <h5>Child Education</h5>
+                <p>In Balukhali Camp in Cox’s Bazar, Bangladesh, women lack privacy, safe places to sleep, sufficient sanitation facilities and mental health support.</p>
+                </div>
+            </div>
+    </div>
+    </div>
+ </div>
+</section><!--service section end-->
+<!--about section start-->
+<section class="about">
+ <div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-6 col-md-12">
+            <div class="about__img"></div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+            <div class="about__content">
+                <div class="heading">
+                    <h2 class="title">If you didn’t know, Here’s a bit about us.</h2>
+                </div>
+                <p>We were established as a CharityPress charity in 1990 and began to operate internationally in 2010. From the beginning, we have been passionate about making a difference in people’s lives through our youth empowerment presentations, our humanitarian Builds program.</p>
                 <ul>
                     <li>
-                        <i class="fa-solid fa-right-long"></i>
-                        Protecting charities from abuse or mismanagement
+                        <i class="fa-solid fa-circle"></i>
+                         Children's Charities
                     </li>
                     <li>
-                        <i class="fa-solid fa-right-long"></i>
-                        Enabling trustees to run their charities effectively
+                        <i class="fa-solid fa-circle"></i>
+                        Human Care Charities
                     </li>
                     <li>
-                        <i class="fa-solid fa-right-long"></i>
-                        Encouraging greater transparency and accountability
+                        <i class="fa-solid fa-circle"></i>
+                        Women, Children & Family Charities
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-circle"></i>
+                        Children's Medical Charities
                     </li>
                 </ul>
-                <ul class="waypoint__list">
-                    <li>
-                        <p>
-                            <span class="counter">132</span><sup>+</sup>
-                        </p>
-                        <span class="title">primary-school</span>
-                    </li>
-                    <li>
-                        <p>
-                            <span class="counter">19</span><sup>+</sup>
-                        </p>
-                        <span class="title">Hospitals</span>
-                    </li>
-                    <li>
-                        <p>
-                            <span class="counter">90</span><sup>+</sup>
-                        </p>
-                        <span class="title">Volunteers</span>
-                    </li>
-                    <li>
-                        <p>
-                            <span class="counter">27</span><sup>+</sup>
-                        </p>
-                        <span class="title">Winning Awards</span>
-                    </li>
-                <ul>
             </div>
         </div>
-        <div class="col-md-12 col-lg-6">
-            <div class="row">
-                <div class="col-md-12 mb-30">
-                    <picture>
-                        <img class="rounded w-full" width="560" height="250" loading="lazy" src="./images/common/archive-img-1.webp" alt="" srcset="">
-                    </picture>
-                </div>
-                <div class="col-md-6 col-sm-6 mb-30">
-                    <picture>
-                        <img class="rounded w-full" width="270" height="260" src="./images/common/archive-img-2.webp" alt="" srcset="">
-                    </picture>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                    <picture>
-                        <img class="rounded w-full" width="270" height="260" src="./images/common/archive-img-3.webp" alt="" srcset="">
-                    </picture>
-                </div>
-            </div>
-        </div>
-     </div>
-   </div>
-</section>
+    </div>
+ </div>
+</section><!--about section end-->
 <!--popular section start-->
 <section class="popular waypoint-tigger">
     <div class="container">
@@ -631,22 +628,22 @@
  </div>
 </section><!--funded section end-->
 <!--volunteer section start-->
-<section class="volunteer">
+<section class="volunteer volunteer--part-2">
     <div class="row">
         <div class="col-md-8 col-lg-7">
-            <div class="volunteer__from">
+            <div class="volunteer__from volunteer--part-2__from">
                <h2>Become a Volunteer</h2>
                <p class="mb-30">It only takes a minute to set up a campaign. Decide what to do. Pick a name. Pick a photo. And just like that, you’ll be ready to start raising money.</p>
                <form action="#">
                 <div class="row">
                     <div class="col-lg-6">
-                        <input type="text" class="form-data" placeholder="Your Name">
+                        <input type="text" class="from-border" placeholder="Your Name">
                     </div>
                     <div class="col-lg-6">
-                        <input type="text" class="form-data" placeholder="Your Email">
+                        <input type="text" class="from-border" placeholder="Your Email">
                     </div>
                     <div class="col-lg-6">
-                        <select name="branch" class="form-data" id="volunteer__branch">
+                        <select name="branch" class="from-border" id="volunteer__branch">
                             <option value="#">Select</option>
                             <option value="#">Branch</option>
                             <option value="#">New york</option>
@@ -654,13 +651,13 @@
                         </select>
                     </div>
                     <div class="col-lg-6 mb-30">
-                       <div class="file-container">
+                       <div class="file-container from-border">
                        <input type="file" id="volunteer_cv" name="file">
                        <label for="volunteer_cv">Upload Your CV</label>
                        </div>
                     </div>
                 </div>
-                <textarea name="massage" id="massage" placeholder="Enter your massage" class="form-data mb-30" cols="10" rows="5"></textarea>
+                <textarea name="massage" id="massage" placeholder="Enter your massage" class="form-border mb-30" cols="10" rows="5"></textarea>
                 <a class="volunteer__primary-btn" href="#">
                     <span>All Causes</span>
                 </a>
@@ -687,11 +684,12 @@
             <div class="col-md-5">
                 <div class="event-image">
                    <img class="w-full cover" src="./images/icon/event_1.webp" alt="event_1.webp">
+                   <div class="overlay-1">
                    <div class="entry-date">
                     <div class="entry-date-day">27</div>
                     <div class="entry-date-month">Dec</div>
                    </div>
-                   <div class="overlay"></div>
+                   </div>
                 </div>
             </div>
             <div class="col-md-7">
@@ -722,11 +720,12 @@
             <div class="col-md-5">
             <div class="event-image">
                    <img class="w-full cover" src="./images/icon/event_2.webp" alt="event_1.webp">
+                   <div class="overlay-2">
                    <div class="entry-date">
                     <div class="entry-date-day">15</div>
                     <div class="entry-date-month">Aug</div>
                    </div>
-                   <div class="overlay"></div>
+                   </div>
                 </div>
             </div>
             <div class="col-md-7">
@@ -757,11 +756,12 @@
         <div class="col-md-5">
             <div class="event-image">
                    <img class="w-full cover" src="./images/icon/event_3.webp" alt="event_1.webp">
+                   <div class="overlay-3">
                    <div class="entry-date">
                     <div class="entry-date-day">24</div>
                     <div class="entry-date-month">Jan</div>
                    </div>
-                   <div class="overlay"></div>
+                   </div>
                 </div>
             </div>
             <div class="col-md-7">
@@ -792,11 +792,12 @@
         <div class="col-md-5">
             <div class="event-image">
                    <img class="w-full cover" src="./images/icon/event_4.webp" alt="event_1.webp">
+                   <div class="overlay-4">
                    <div class="entry-date">
                     <div class="entry-date-day">23</div>
                     <div class="entry-date-month">Jun</div>
                    </div>
-                   <div class="overlay"></div>
+                   </div>
                 </div>
             </div>
             <div class="col-md-7">
@@ -825,7 +826,6 @@
         </div>
        </div>
     </div>
-
 </section><!--events section end-->
 <!--brand section start-->
 <section class="brand">
@@ -877,7 +877,6 @@
     </div>
  </div>
 </section><!--brand section end-->
-<!--journal section start-->
 <section class="journal">
     <div class="container">
     <div class="row mb-60">
@@ -1070,11 +1069,11 @@
                             <div class="col-4 post-thumb">
                                 <a href="#">
                                     <img width=""80 height="70" class="w-full cover" src="./images/icon/news_feeds_1.webp" alt="news_feeds_1.webp">
-                                    <div class="overlay">
-                                        <div class="entry-date">
-                                            <span class="date d-block">21</span>
-                                            <span class="month d-block">Dec</span>
-                                        </div>
+                                    <div class="overlay-1">
+                                    <div class="entry-date">
+                                        <span class="date d-block">21</span>
+                                        <span class="month d-block">Dec</span>
+                                    </div>
                                     </div>
                                 </a>
                             </div>
@@ -1097,9 +1096,9 @@
                                 <a href="#">
                                     <img width=""80 height="70" class="w-full cover" src="./images/icon/news_feeds_2.webp" alt="news_feeds_1.webp">
                                     <div class="overlay">
-                                        <div class="entry-date">
-                                            <span class="date d-block">23</span>
-                                            <span class="month d-block">sep</span>
+                                    <div class="entry-date">
+                                        <span class="date d-block">23</span>
+                                        <span class="month d-block">sep</span>
                                     </div>
                                     </div>
                                 </a>
@@ -1184,6 +1183,4 @@
         </div>
     </div>
 </section><!--footer section end-->
-
-
 <?php include './partials/document.close.php' ?>
