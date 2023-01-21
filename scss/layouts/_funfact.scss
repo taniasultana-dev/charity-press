@@ -1,0 +1,83 @@
+.funfact {
+    background-image: url('../images/icon/funfact-bg-image.webp');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+
+    &__content {
+        padding: 160px 0;
+        @include responsive($tablet) {
+            padding: 100px 0;
+        }
+
+        .heading {
+            margin-bottom: 60px;
+
+            h2 {
+                font-size: 52px;
+                font-weight: 700;
+                color: $white;
+                margin-bottom: 29px;
+                @include responsive($iphoneSE) {
+                    font-size: 36px !important;
+                }
+
+                @include responsive($tablet) {
+                    font-size: 34px;
+                }
+            }
+
+            p {
+                font-size: 18px;
+                font-weight: 400;
+                color: $gray;
+                margin: 0;
+            }
+        }
+
+        .single-funfact {
+            font-size: 80px;
+            color: $sky-blue;
+            margin-right: 30px;
+
+            span {
+                margin-right: 20px;
+            }
+        }
+
+        .body{
+            flex: 1;
+
+            .number-percentage {
+                font-size: 36px;
+                font-weight: 700;
+                color: $white;
+                @include responsive($tablet) {
+                    font-size: 24px;
+                }
+            }
+            
+            .sign {
+                font-size: 36px;
+                font-weight: 700;
+                color: $white;
+                margin: 0 !important;
+                @include responsive($tablet) {
+                    font-size: 24px;
+                }
+            }
+
+            small {
+                font-size: 20px;
+                color: $gray;
+                font-weight: 400;
+                display: block;
+                white-space: nowrap;
+                @include responsive($tablet){
+                    white-space: pre-wrap;
+                }
+            }
+        }
+    }
+}

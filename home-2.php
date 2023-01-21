@@ -10,7 +10,7 @@
                     <img width="496" height="196" class="cover" src="./images/icon/welcome-text-1.webp" alt="welcome-text-1.webp">
                     <h1 class="title mb-30">Hunger is stalking the globe</h1>
                     <p class="description mb-40">Hundreds of thousands of children experiencing or witnessing assault <br> and other gender-based violence.</p>
-                    <div class="banner__group-btn">
+                    <div class="banner__group-btn banner__group-btn--center">
                         <a class="banner__btn has-border" href="#">
                             <span>join us now</span>
                         </a>  
@@ -30,7 +30,7 @@
                     <img width="496" height="196" class="cover" src="./images/icon/welcome-text-1.webp" alt="welcome-text-1.webp">
                     <h1 class="title mb-30">Hunger is stalking the globe</h1>
                     <p class="description mb-40">Hundreds of thousands of children experiencing or witnessing assault <br> and other gender-based violence.</p>
-                    <div class="banner__group-btn">
+                    <div class="banner__group-btn banner__group-btn--center">
                         <a class="banner__btn has-border" href="#">
                             <span>join us now</span>
                         </a>  
@@ -50,7 +50,7 @@
                 <img width="496" height="196" class="cover" src="./images/icon/welcome-text-1.webp" alt="welcome-text-1.webp">
                 <h1 class="title mb-30">Hunger is stalking the globe</h1>
                     <p class="description mb-40">Hundreds of thousands of children experiencing or witnessing assault <br> and other gender-based violence.</p>
-                    <div class="banner__group-btn">
+                    <div class="banner__group-btn banner__group-btn--center">
                         <a class="banner__btn has-border" href="#">
                             <span>join us now</span>
                         </a>  
@@ -64,7 +64,7 @@
                 </div>
             </div>
         </div> <!-- end of .slider-3 -->
-</section><!--banner home 1 end-->
+</section><!--banner home 2 end-->
 <!--service section start-->
 <section class="service">
  <div class="container">
@@ -651,7 +651,7 @@
                         </select>
                     </div>
                     <div class="col-lg-6 mb-30">
-                       <div class="file-container from-border">
+                       <div class="file-container">
                        <input type="file" id="volunteer_cv" name="file">
                        <label for="volunteer_cv">Upload Your CV</label>
                        </div>

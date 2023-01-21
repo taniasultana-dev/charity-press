@@ -1,17 +1,15 @@
 <?php  
     // document open
-    include './partials/document-open.php';
-    include './partials/navbar.php';
+    include './partials/document-open.php'; 
 ?>
-
-<section class="banner banner--home-1">
+<section class="banner banner--home-2">
 <div class="owl-carousel banner-slider">
-        <div class="item banner__item banner__item--demo slider-1">
+        <div class="item banner__item banner__item--part-1 slider-1">
             <div class="overlay">
-                <div class="container text-center text-white">
+                <div class="container text-start text-white">
+                    <p class="description">Charity for childrens</p>
                     <h1 class="title mb-30">Hunger is stalking the globe</h1>
-                    <p class="description mb-40">Hundreds of thousands of children experiencing or witnessing assault <br> and other gender-based violence.</p>
-                    <div class="banner__group-btn banner__group-btn--center">
+                    <div class="banner__group-btn banner__group-btn--left">
                         <a class="banner__btn has-border" href="#">
                             <span>join us now</span>
                         </a>  
@@ -25,12 +23,12 @@
                 </div>
             </div>
         </div> <!-- end of .slider-1 -->
-        <div class="item banner__item banner__item--demo2 slider-2">
+        <div class="item banner__item banner__item--part-2 slider-2">
             <div class="overlay">
-                <div class="container text-center text-white">
+                <div class="container text-start text-white">
+                    <p class="description">Charity for childrens</p>
                     <h1 class="title mb-30">Hunger is stalking the globe</h1>
-                    <p class="description mb-40">Hundreds of thousands of children experiencing or witnessing assault <br> and other gender-based violence.</p>
-                    <div class="banner__group-btn banner__group-btn--center">
+                    <div class="banner__group-btn banner__group-btn--left">
                         <a class="banner__btn has-border" href="#">
                             <span>join us now</span>
                         </a>  
@@ -44,12 +42,12 @@
                 </div>
             </div>
         </div> <!-- end of .slider-2 -->
-        <div class="item banner__item banner__item--demo3 slider-2">
-            <div class="overlay">
-                <div class="container text-center text-white">
-                <h1 class="title mb-30">Hunger is stalking the globe</h1>
-                    <p class="description mb-40">Hundreds of thousands of children experiencing or witnessing assault <br> and other gender-based violence.</p>
-                    <div class="banner__group-btn banner__group-btn--center">
+        <div class="item banner__item banner__item--part-3 slider-2">
+        <div class="overlay">
+                <div class="container text-start text-white">
+                    <p class="description">Charity for childrens</p>
+                    <h1 class="title mb-30">Hunger is stalking the globe</h1>
+                    <div class="banner__group-btn banner__group-btn--left">
                         <a class="banner__btn has-border" href="#">
                             <span>join us now</span>
                         </a>  
@@ -62,83 +60,37 @@
                     </div>
                 </div>
             </div>
+            </div>
         </div> <!-- end of .slider-3 -->
-</section><!--banner home 1 end-->
-<!--waypoint section start-->
-<section class="waypoint">
-   <div class="container">
-     <div class="row">
-        <div class="col-md-12 col-lg-6">
-            <div class="waypoint__content">
-                <h2 class="waypoint__line-title">our mission</h2>
-                <h3 class="waypoint__title">Archived</h3>
-                <p>We register and regulate charities in England and Wales, to ensure that the public can support charities with confidence. As registrar, we are responsible for maintaining an accurate.</p>
-                <h5>Our strategic priorities up to 2018 are:</h5>
-                <ul>
-                    <li>
-                        <i class="fa-solid fa-right-long"></i>
-                        Protecting charities from abuse or mismanagement
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-right-long"></i>
-                        Enabling trustees to run their charities effectively
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-right-long"></i>
-                        Encouraging greater transparency and accountability
-                    </li>
-                </ul>
-                <ul class="waypoint__list">
-                    <li>
-                        <p>
-                            <span class="counter">132</span><sup>+</sup>
-                        </p>
-                        <span class="title">primary-school</span>
-                    </li>
-                    <li>
-                        <p>
-                            <span class="counter">19</span><sup>+</sup>
-                        </p>
-                        <span class="title">Hospitals</span>
-                    </li>
-                    <li>
-                        <p>
-                            <span class="counter">90</span><sup>+</sup>
-                        </p>
-                        <span class="title">Volunteers</span>
-                    </li>
-                    <li>
-                        <p>
-                            <span class="counter">27</span><sup>+</sup>
-                        </p>
-                        <span class="title">Winning Awards</span>
-                    </li>
-                <ul>
+</section><!--banner home 3 end-->
+<!--project section start--->
+<section class="project">
+ <div class="container">
+    <div class="row">
+        <div class="col-lg-7 col-md-12">
+            <div class="project__content">
+                <div class="heading">
+                    <h2>With your help</h2>
+                    <h3 class="title">We’ve funded 33,537 water projects for 10 million people around the world.</h3>
+                    <span class="separetor"></span>
+                </div>
+                <p>Nancee was referred to the Children of the Night shelter home after being rescued from sex trafficking by the Colorado FBI. During her stay she completed her GED (High School Equivalency Exam) and she successfully completed Business 01 and English 28 at the local community college. Nancee enjoyed her boxing hobby.</p>
+                <a class="project__primary-btn mb-20" href="#">
+                    <span>see more impact</span>
+                </a>  
             </div>
         </div>
-        <div class="col-md-12 col-lg-6">
-            <div class="row">
-                <div class="col-md-12 mb-30">
-                    <picture>
-                        <img class="rounded w-full" width="560" height="250" loading="lazy" src="./images/common/archive-img-1.webp" alt="" srcset="">
-                    </picture>
-                </div>
-                <div class="col-md-6 col-sm-6 mb-30">
-                    <picture>
-                        <img class="rounded w-full" width="270" height="260" src="./images/common/archive-img-2.webp" alt="" srcset="">
-                    </picture>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                    <picture>
-                        <img class="rounded w-full" width="270" height="260" src="./images/common/archive-img-3.webp" alt="" srcset="">
-                    </picture>
-                </div>
+        <div class="col-lg-5 col-md-12">
+            <div class="project__box-image image-1 mb-30">
+                <img class="cover" width="370" height="300" src="./images/icon/feature-image-1.webp" alt="feature-image-1.webp">
+            </div>
+            <div class="project__box-image image-2">
+            <img class="cover" width="370" height="300" src="./images/icon/feature-image-2.webp" alt="feature-image-2.webp">
             </div>
         </div>
-     </div>
-   </div>
-</section>
-<!--popular section start-->
+    </div>
+ </div>
+</section><!--project section end--->
 <section class="popular waypoint-tigger">
     <div class="container">
         <div class="row mb-60">
@@ -508,74 +460,61 @@
     </div>
    </div>
 </section><!--welcome section end-->
-<!--activites section start-->
-<section class="activites">
- <div class="container-fluid">
-    <div class="activites__content">
-       <h2 class="text-white">
-         CharityPress are 
-         <span>charity</span>
-         activities are taken place around the world, lets contribute.
-       </h2>
+<!--funfact section start-->
+<section class="funfact">
+ <div class="container">
+    <div class="row">
+        <div class="col-lg-5"></div>
+        <div class="col-lg-7">
+            <div class="funfact__content">
+                <div class="heading">
+                   <h2>There's no limit to what you could raise!</h2>
+                   <p>Just by shopping online for new clothes via Give as you Live, means you could easily raise £10 a year for your charity. There are hundreds of leading retailers including M&S, Asos, Debenhams, House of Fraser, Next and New Look.</p> 
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-40">
+                        <div class="d-flex align-item-start single-funfact">
+                            <span class="d-flex icon-children"></span>
+                            <div class="body">
+                            <span class="number-percentage-count number-percentage" data-value="1900" data-animation-duration="3500">1,900</span>
+                                <small>Children rescued</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-40">
+                        <div class="d-flex align-item-start single-funfact">
+                            <span class="d-flex icon-coin"></span>
+                            <div class="body">
+                                <span class="sign">$</span>
+                                <span class="number-percentage-count number-percentage" data-value="56000" data-animation-duration="3500">56,000</span>
+                                <small>Total donation</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-40">
+                    <div class="d-flex align-item-start single-funfact">
+                            <span class="d-flex icon-like"></span>
+                            <div class="body">
+                            <span class="number-percentage-count number-percentage" data-value="2000" data-animation-duration="3500">2,000</span>
+                                <small>Project completed</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-40">
+                    <div class="d-flex align-item-start single-funfact">
+                            <span class="d-flex icon-team_2"></span>
+                            <div class="body">
+                                <span class="number-percentage-count number-percentage" data-value="120" data-animation-duration="3500">120</span>
+                                <small>Active volunteer</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
  </div>
-</section><!--activites section end-->
-<!--feature section start-->
-<section class="feature">
-    <div class="container-fluid">
-    <div class="row feature__box-wrapper">
-        <div class="col-md-12 col-lg-4 feature__box">
-            <div class="feature__box-content">
-                <h3 class="text-white mb-30">But we’re not done yet. We need your.</h3>
-                <a class="feature__primary-btn" href="#">
-                    <span>get involved</span>
-                </a>
-            </div>
-        </div>
-        <div class="col-md-12 col-lg-4 feature__box hilight">
-            <div class="feature__box-content">
-                <h3 class="text-white mb-30">Sponsor an entire trending project</h3>
-                <p class="text-white mb-30">For $10,000 or more you can fully fund a water project for a Community. 100% funds clean water projects. 663 million people drink.</p>
-                <a class="feature__primary-btn" href="#">
-                    <span>Become an Sponsor</span>
-                </a>
-            </div>
-        </div>
-        <div class="col-md-12 col-lg-4 feature__box">
-        <div class="feature__box-content">
-                <h3 class="text-white mb-30">Connect with us on social media</h3>
-                <ul>
-                    <li>
-                        <a href="#">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                        <i class="fa-brands fa-twitter"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                        <i class="fa-brands fa-square-instagram"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                        <i class="fa-brands fa-pinterest-p"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                        <i class="fa-brands fa-google"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
-</section><!--feature section end-->
+</section><!--funfact section end-->
 <!--funded section start-->
 <section class="funded">
  <div class="container">
@@ -631,22 +570,22 @@
  </div>
 </section><!--funded section end-->
 <!--volunteer section start-->
-<section class="volunteer">
+<section class="volunteer volunteer--part-2">
     <div class="row">
         <div class="col-md-8 col-lg-7">
-            <div class="volunteer__from">
+            <div class="volunteer__from volunteer--part-2__from">
                <h2>Become a Volunteer</h2>
                <p class="mb-30">It only takes a minute to set up a campaign. Decide what to do. Pick a name. Pick a photo. And just like that, you’ll be ready to start raising money.</p>
                <form action="#">
                 <div class="row">
                     <div class="col-lg-6">
-                        <input type="text" class="form-data" placeholder="Your Name">
+                        <input type="text" class="from-border" placeholder="Your Name">
                     </div>
                     <div class="col-lg-6">
-                        <input type="text" class="form-data" placeholder="Your Email">
+                        <input type="text" class="from-border" placeholder="Your Email">
                     </div>
                     <div class="col-lg-6">
-                        <select name="branch" class="form-data" id="volunteer__branch">
+                        <select name="branch" class="from-border" id="volunteer__branch">
                             <option value="#">Select</option>
                             <option value="#">Branch</option>
                             <option value="#">New york</option>
@@ -660,7 +599,7 @@
                        </div>
                     </div>
                 </div>
-                <textarea name="massage" id="massage" placeholder="Enter your massage" class="form-data mb-30" cols="10" rows="5"></textarea>
+                <textarea name="massage" id="massage" placeholder="Enter your massage" class="form-border mb-30" cols="10" rows="5"></textarea>
                 <a class="volunteer__primary-btn" href="#">
                     <span>All Causes</span>
                 </a>
@@ -687,11 +626,12 @@
             <div class="col-md-5">
                 <div class="event-image">
                    <img class="w-full cover" src="./images/icon/event_1.webp" alt="event_1.webp">
+                   <div class="overlay-1">
                    <div class="entry-date">
                     <div class="entry-date-day">27</div>
                     <div class="entry-date-month">Dec</div>
                    </div>
-                   <div class="overlay"></div>
+                   </div>
                 </div>
             </div>
             <div class="col-md-7">
@@ -722,11 +662,12 @@
             <div class="col-md-5">
             <div class="event-image">
                    <img class="w-full cover" src="./images/icon/event_2.webp" alt="event_1.webp">
+                   <div class="overlay-2">
                    <div class="entry-date">
                     <div class="entry-date-day">15</div>
                     <div class="entry-date-month">Aug</div>
                    </div>
-                   <div class="overlay"></div>
+                   </div>
                 </div>
             </div>
             <div class="col-md-7">
@@ -757,11 +698,12 @@
         <div class="col-md-5">
             <div class="event-image">
                    <img class="w-full cover" src="./images/icon/event_3.webp" alt="event_1.webp">
+                   <div class="overlay-3">
                    <div class="entry-date">
                     <div class="entry-date-day">24</div>
                     <div class="entry-date-month">Jan</div>
                    </div>
-                   <div class="overlay"></div>
+                   </div>
                 </div>
             </div>
             <div class="col-md-7">
@@ -792,11 +734,12 @@
         <div class="col-md-5">
             <div class="event-image">
                    <img class="w-full cover" src="./images/icon/event_4.webp" alt="event_1.webp">
+                   <div class="overlay-4">
                    <div class="entry-date">
                     <div class="entry-date-day">23</div>
                     <div class="entry-date-month">Jun</div>
                    </div>
-                   <div class="overlay"></div>
+                   </div>
                 </div>
             </div>
             <div class="col-md-7">
@@ -825,7 +768,6 @@
         </div>
        </div>
     </div>
-
 </section><!--events section end-->
 <!--brand section start-->
 <section class="brand">
@@ -877,7 +819,6 @@
     </div>
  </div>
 </section><!--brand section end-->
-<!--journal section start-->
 <section class="journal">
     <div class="container">
     <div class="row mb-60">
@@ -1070,11 +1011,11 @@
                             <div class="col-4 post-thumb">
                                 <a href="#">
                                     <img width=""80 height="70" class="w-full cover" src="./images/icon/news_feeds_1.webp" alt="news_feeds_1.webp">
-                                    <div class="overlay">
-                                        <div class="entry-date">
-                                            <span class="date d-block">21</span>
-                                            <span class="month d-block">Dec</span>
-                                        </div>
+                                    <div class="overlay-1">
+                                    <div class="entry-date">
+                                        <span class="date d-block">21</span>
+                                        <span class="month d-block">Dec</span>
+                                    </div>
                                     </div>
                                 </a>
                             </div>
@@ -1097,9 +1038,9 @@
                                 <a href="#">
                                     <img width=""80 height="70" class="w-full cover" src="./images/icon/news_feeds_2.webp" alt="news_feeds_1.webp">
                                     <div class="overlay">
-                                        <div class="entry-date">
-                                            <span class="date d-block">23</span>
-                                            <span class="month d-block">sep</span>
+                                    <div class="entry-date">
+                                        <span class="date d-block">23</span>
+                                        <span class="month d-block">sep</span>
                                     </div>
                                     </div>
                                 </a>

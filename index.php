@@ -13,7 +13,7 @@
             </picture>
             <h1 class="banner__title text-lg weight-lg l-height mb-30">CharityPress</h1>
             <h4 class="banner__sub-title text-md weight-m m-height mb-40">CharityPress - Charity Fundraising HTML Template</h4>
-            <div class="banner__group-btn">
+            <div class="banner__group-btn banner__group-btn--center">
                 <a class="banner__primary-btn" href="#">
                     <span>Buy theme</span>
                 </a>
@@ -67,7 +67,7 @@
                             <img loading="lazy" src="./images/common/demo_3.webp" alt="" srcset="">
                         </picture>
                         <div class="hero__demo-content">
-                            <a class="hero__primary-btn" href="#">
+                            <a class="hero__primary-btn" href="home-3.php">
                                 <span>Index Version 3</span>
                             </a>
                         </div>

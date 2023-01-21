@@ -1,0 +1,82 @@
+.project {
+    padding: 120px 0;
+
+    &__content {
+        padding-top: 75px;
+
+        .heading {
+            margin-bottom: 30px;
+
+            h2 {
+                font-size: 25px;
+                font-weight: 400;
+                color: $black-300;
+                position: relative;
+                z-index: 2;
+            }
+
+           .title {
+                font-size: 45px;
+                font-weight: 700;
+                color: $black-100;
+                position: relative;
+                z-index: 1;
+                @include responsive($tablet) {
+                    font-size: 39px;
+                }
+
+                &::before {
+                    content: 'Features';
+                    position: absolute;
+                    top: -70px;
+                    left: -44px;
+                    font-size: 100px;
+                    color: $dark-white;
+                    z-index: -1;
+                    @include responsive($tablet) {
+                        display: none;
+                    }
+                }
+            }
+
+            span {
+                width: 70px;
+                height: 2px;
+                display: inline-block;
+                background-color: $sky-blue;
+            }
+        }
+
+        p {
+            color: $gray-200;
+            margin-bottom: 30px;
+        }
+
+        a {
+            @extend .no-underline, .inline-block, .btn-base, .rounded-pill;
+        }
+    }
+
+    &__primary-btn {
+        --text-color: var(--bs-white);
+        --text-hover-color: var(--bs-white);
+        --background-color: var(--sky-blue-color);
+        --background-hover-color: var(--blue-color);    
+    }
+
+    &__box-image {
+        position: relative;
+    }
+
+    .image-1 {
+        text-align: right;
+        z-index: 1;
+    }
+
+    .image-2 {
+        margin-top: -73px;
+        @include responsive($tablet) {
+            margin: 0;
+        }
+    }
+}

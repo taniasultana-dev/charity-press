@@ -7373,7 +7373,7 @@ textarea.form-control-lg {
   justify-content: flex-end !important;
 }
 
-.justify-content-center, .feature__box, .banner__group-btn {
+.justify-content-center, .feature__box, .banner__group-btn--center {
   justify-content: center !important;
 }
 
@@ -8263,7 +8263,7 @@ textarea.form-control-lg {
   border-radius: 50% !important;
 }
 
-.rounded-pill, .journal a, .brand__partner-content a, .events__single-event .event-content a, .volunteer__from a, .feature__box-content a, .welcome__content a, .popular a, .laptop__demo-content a, .hero__demo-content a, .banner__group-btn a {
+.rounded-pill, .project__content a, .journal a, .brand__partner-content a, .events__single-event .event-content a, .volunteer__from a, .feature__box-content a, .welcome__content a, .popular a, .laptop__demo-content a, .hero__demo-content a, .banner__group-btn a {
   border-radius: var(--bs-border-radius-pill) !important;
 }
 
@@ -21119,11 +21119,11 @@ readers do not read off random characters that represent icons */
   --purple-200:#7255cf;
 }
 
-.journal__single-journal, .volunteer__from, .popular__item-content a, .banner__nav button, .banner__nav, .btn-base:not(.has-border)::before, .journal a:not(.has-border)::before, .brand__partner-content a:not(.has-border)::before, .events__single-event .event-content a:not(.has-border)::before, .volunteer__from a:not(.has-border)::before, .feature__box-content a:not(.has-border)::before, .welcome__content a:not(.has-border)::before, .popular a:not(.has-border)::before, .laptop__demo-content a:not(.has-border)::before, .hero__demo-content a:not(.has-border)::before, .banner__group-btn a:not(.has-border)::before, .btn-base.has-border, .journal a.has-border, .brand__partner-content a.has-border, .events__single-event .event-content a.has-border, .volunteer__from a.has-border, .feature__box-content a.has-border, .welcome__content a.has-border, .popular a.has-border, .laptop__demo-content a.has-border, .hero__demo-content a.has-border, .banner__group-btn a.has-border {
+.journal__single-journal, .volunteer__from, .popular__item-content a, .banner__nav button, .banner__nav, .btn-base:not(.has-border)::before, .project__content a:not(.has-border)::before, .journal a:not(.has-border)::before, .brand__partner-content a:not(.has-border)::before, .events__single-event .event-content a:not(.has-border)::before, .volunteer__from a:not(.has-border)::before, .feature__box-content a:not(.has-border)::before, .welcome__content a:not(.has-border)::before, .popular a:not(.has-border)::before, .laptop__demo-content a:not(.has-border)::before, .hero__demo-content a:not(.has-border)::before, .banner__group-btn a:not(.has-border)::before, .btn-base.has-border, .project__content a.has-border, .journal a.has-border, .brand__partner-content a.has-border, .events__single-event .event-content a.has-border, .volunteer__from a.has-border, .feature__box-content a.has-border, .welcome__content a.has-border, .popular a.has-border, .laptop__demo-content a.has-border, .hero__demo-content a.has-border, .banner__group-btn a.has-border {
   transition: all 0.4s ease;
 }
 
-.banner--home-1 .overlay, .banner__overlay {
+.banner--home-2 .overlay, .banner--home-1 .overlay, .banner__overlay {
   width: 100%;
   height: 100%;
   background: rgba(34, 34, 34, 0.55);
@@ -21145,11 +21145,11 @@ readers do not read off random characters that represent icons */
   flex-direction: column;
 }
 
-.no-underline, .journal a, .brand__partner-content a, .events__single-event .event-content a, .volunteer__from a, .feature__box-content a, .welcome__content a, .popular a, .site-footer a, .laptop__demo-content a, .hero__demo-content a, .banner__group-btn a {
+.no-underline, .project__content a, .journal a, .brand__partner-content a, .events__single-event .event-content a, .volunteer__from a, .feature__box-content a, .welcome__content a, .popular a, .site-footer a, .laptop__demo-content a, .hero__demo-content a, .banner__group-btn a {
   text-decoration: none;
 }
 
-.inline-block, .journal a, .brand__partner-content a, .events__single-event .event-content a, .volunteer__from a, .feature__box-content a, .welcome__content a, .popular a, .laptop__demo-content a, .hero__demo-content a, .banner__group-btn a {
+.inline-block, .project__content a, .journal a, .brand__partner-content a, .events__single-event .event-content a, .volunteer__from a, .feature__box-content a, .welcome__content a, .popular a, .laptop__demo-content a, .hero__demo-content a, .banner__group-btn a {
   display: inline-block;
 }
 
@@ -21267,12 +21267,12 @@ readers do not read off random characters that represent icons */
   padding-right: 20px;
 }
 
-.btn-base, .journal a, .brand__partner-content a, .events__single-event .event-content a, .volunteer__from a, .feature__box-content a, .welcome__content a, .popular a, .laptop__demo-content a, .hero__demo-content a, .banner__group-btn a {
+.btn-base, .project__content a, .journal a, .brand__partner-content a, .events__single-event .event-content a, .volunteer__from a, .feature__box-content a, .welcome__content a, .popular a, .laptop__demo-content a, .hero__demo-content a, .banner__group-btn a {
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 700;
 }
-.btn-base.has-border, .journal a.has-border, .brand__partner-content a.has-border, .events__single-event .event-content a.has-border, .volunteer__from a.has-border, .feature__box-content a.has-border, .welcome__content a.has-border, .popular a.has-border, .laptop__demo-content a.has-border, .hero__demo-content a.has-border, .banner__group-btn a.has-border {
+.btn-base.has-border, .project__content a.has-border, .journal a.has-border, .brand__partner-content a.has-border, .events__single-event .event-content a.has-border, .volunteer__from a.has-border, .feature__box-content a.has-border, .welcome__content a.has-border, .popular a.has-border, .laptop__demo-content a.has-border, .hero__demo-content a.has-border, .banner__group-btn a.has-border {
   border: 2px;
   border-style: solid;
   padding: 10px 34px;
@@ -21280,22 +21280,22 @@ readers do not read off random characters that represent icons */
   border-color: #FFFFFF;
   color: var(--text-color);
 }
-.btn-base.has-border:hover, .journal a.has-border:hover, .brand__partner-content a.has-border:hover, .events__single-event .event-content a.has-border:hover, .volunteer__from a.has-border:hover, .feature__box-content a.has-border:hover, .welcome__content a.has-border:hover, .popular a.has-border:hover, .laptop__demo-content a.has-border:hover, .hero__demo-content a.has-border:hover, .banner__group-btn a.has-border:hover {
+.btn-base.has-border:hover, .project__content a.has-border:hover, .journal a.has-border:hover, .brand__partner-content a.has-border:hover, .events__single-event .event-content a.has-border:hover, .volunteer__from a.has-border:hover, .feature__box-content a.has-border:hover, .welcome__content a.has-border:hover, .popular a.has-border:hover, .laptop__demo-content a.has-border:hover, .hero__demo-content a.has-border:hover, .banner__group-btn a.has-border:hover {
   background-color: var(--background-hover-color);
   color: var(--text-hover-color);
 }
-.btn-base:not(.has-border), .journal a:not(.has-border), .brand__partner-content a:not(.has-border), .events__single-event .event-content a:not(.has-border), .volunteer__from a:not(.has-border), .feature__box-content a:not(.has-border), .welcome__content a:not(.has-border), .popular a:not(.has-border), .laptop__demo-content a:not(.has-border), .hero__demo-content a:not(.has-border), .banner__group-btn a:not(.has-border) {
+.btn-base:not(.has-border), .project__content a:not(.has-border), .journal a:not(.has-border), .brand__partner-content a:not(.has-border), .events__single-event .event-content a:not(.has-border), .volunteer__from a:not(.has-border), .feature__box-content a:not(.has-border), .welcome__content a:not(.has-border), .popular a:not(.has-border), .laptop__demo-content a:not(.has-border), .hero__demo-content a:not(.has-border), .banner__group-btn a:not(.has-border) {
   padding: var(--padding, 12px 36px);
   background-color: var(--background-color);
   color: var(--text-color);
   position: relative;
   overflow: hidden;
 }
-.btn-base:not(.has-border) span, .journal a:not(.has-border) span, .brand__partner-content a:not(.has-border) span, .events__single-event .event-content a:not(.has-border) span, .volunteer__from a:not(.has-border) span, .feature__box-content a:not(.has-border) span, .welcome__content a:not(.has-border) span, .popular a:not(.has-border) span, .laptop__demo-content a:not(.has-border) span, .hero__demo-content a:not(.has-border) span, .banner__group-btn a:not(.has-border) span {
+.btn-base:not(.has-border) span, .project__content a:not(.has-border) span, .journal a:not(.has-border) span, .brand__partner-content a:not(.has-border) span, .events__single-event .event-content a:not(.has-border) span, .volunteer__from a:not(.has-border) span, .feature__box-content a:not(.has-border) span, .welcome__content a:not(.has-border) span, .popular a:not(.has-border) span, .laptop__demo-content a:not(.has-border) span, .hero__demo-content a:not(.has-border) span, .banner__group-btn a:not(.has-border) span {
   position: relative;
   z-index: 2;
 }
-.btn-base:not(.has-border)::before, .journal a:not(.has-border)::before, .brand__partner-content a:not(.has-border)::before, .events__single-event .event-content a:not(.has-border)::before, .volunteer__from a:not(.has-border)::before, .feature__box-content a:not(.has-border)::before, .welcome__content a:not(.has-border)::before, .popular a:not(.has-border)::before, .laptop__demo-content a:not(.has-border)::before, .hero__demo-content a:not(.has-border)::before, .banner__group-btn a:not(.has-border)::before {
+.btn-base:not(.has-border)::before, .project__content a:not(.has-border)::before, .journal a:not(.has-border)::before, .brand__partner-content a:not(.has-border)::before, .events__single-event .event-content a:not(.has-border)::before, .volunteer__from a:not(.has-border)::before, .feature__box-content a:not(.has-border)::before, .welcome__content a:not(.has-border)::before, .popular a:not(.has-border)::before, .laptop__demo-content a:not(.has-border)::before, .hero__demo-content a:not(.has-border)::before, .banner__group-btn a:not(.has-border)::before {
   content: "";
   width: 0%;
   height: 100%;
@@ -21307,10 +21307,10 @@ readers do not read off random characters that represent icons */
   transform: translateX(-50%);
   background-color: var(--background-hover-color);
 }
-.btn-base:not(.has-border):hover, .journal a:not(.has-border):hover, .brand__partner-content a:not(.has-border):hover, .events__single-event .event-content a:not(.has-border):hover, .volunteer__from a:not(.has-border):hover, .feature__box-content a:not(.has-border):hover, .welcome__content a:not(.has-border):hover, .popular a:not(.has-border):hover, .laptop__demo-content a:not(.has-border):hover, .hero__demo-content a:not(.has-border):hover, .banner__group-btn a:not(.has-border):hover {
+.btn-base:not(.has-border):hover, .project__content a:not(.has-border):hover, .journal a:not(.has-border):hover, .brand__partner-content a:not(.has-border):hover, .events__single-event .event-content a:not(.has-border):hover, .volunteer__from a:not(.has-border):hover, .feature__box-content a:not(.has-border):hover, .welcome__content a:not(.has-border):hover, .popular a:not(.has-border):hover, .laptop__demo-content a:not(.has-border):hover, .hero__demo-content a:not(.has-border):hover, .banner__group-btn a:not(.has-border):hover {
   color: var(--text-hover-color);
 }
-.btn-base:not(.has-border):hover:before, .journal a:not(.has-border):hover:before, .brand__partner-content a:not(.has-border):hover:before, .events__single-event .event-content a:not(.has-border):hover:before, .volunteer__from a:not(.has-border):hover:before, .feature__box-content a:not(.has-border):hover:before, .welcome__content a:not(.has-border):hover:before, .popular a:not(.has-border):hover:before, .laptop__demo-content a:not(.has-border):hover:before, .hero__demo-content a:not(.has-border):hover:before, .banner__group-btn a:not(.has-border):hover:before {
+.btn-base:not(.has-border):hover:before, .project__content a:not(.has-border):hover:before, .journal a:not(.has-border):hover:before, .brand__partner-content a:not(.has-border):hover:before, .events__single-event .event-content a:not(.has-border):hover:before, .volunteer__from a:not(.has-border):hover:before, .feature__box-content a:not(.has-border):hover:before, .welcome__content a:not(.has-border):hover:before, .popular a:not(.has-border):hover:before, .laptop__demo-content a:not(.has-border):hover:before, .hero__demo-content a:not(.has-border):hover:before, .banner__group-btn a:not(.has-border):hover:before {
   width: 100%;
   opacity: 1;
 }
@@ -21346,6 +21346,15 @@ readers do not read off random characters that represent icons */
 }
 .banner__item--demo3 {
   background-image: url("../images/common/slider_1.webp");
+}
+.banner__item--part-1 {
+  background-image: url("../images/common/slider_4.webp");
+}
+.banner__item--part-2 {
+  background-image: url("../images/common/slider_5.webp");
+}
+.banner__item--part-3 {
+  background-image: url("../images/common/slider_6.webp");
 }
 .banner__overlay {
   padding: 250px 0 200px 0;
@@ -21408,11 +21417,16 @@ readers do not read off random characters that represent icons */
   background-color: #18bfc3;
   color: var(--bs-white);
 }
+@media screen and (max-width: 992px) {
+  .banner__nav button {
+    display: none;
+  }
+}
 .banner__nav button:hover {
   background-color: #0062cc;
 }
 .banner:hover .banner__nav {
-  padding: 0 40px;
+  padding: 0 18px;
 }
 .banner .active .title,
 .banner .active .description,
@@ -21430,7 +21444,7 @@ readers do not read off random characters that represent icons */
   animation-delay: 1200ms;
 }
 .banner--home-1 .overlay {
-  padding: 250px 0 200px 0;
+  padding: 250px 20px 200px 20px;
 }
 @media screen and (max-width: 992px) {
   .banner--home-1 .overlay {
@@ -21453,6 +21467,29 @@ readers do not read off random characters that represent icons */
 .banner--home-1 .description {
   font-size: 20px;
   font-weight: 600;
+}
+.banner--home-2 .overlay {
+  padding: 250px 0 200px 0;
+}
+@media screen and (max-width: 992px) {
+  .banner--home-2 .overlay {
+    padding: 100px 0 100px 0;
+  }
+}
+.banner--home-2 .overlay .title {
+  font-size: 74px;
+  font-weight: 700;
+  max-width: 680px;
+}
+@media screen and (max-width: 992px) {
+  .banner--home-2 .overlay .title {
+    max-width: 480px;
+  }
+}
+.banner--home-2 .description {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0;
 }
 
 .hero {
@@ -22936,4 +22973,162 @@ readers do not read off random characters that represent icons */
 }
 .about__content ul li i {
   color: #18bfc3;
+}
+
+.project {
+  padding: 120px 0;
+}
+.project__content {
+  padding-top: 75px;
+}
+.project__content .heading {
+  margin-bottom: 30px;
+}
+.project__content .heading h2, .project__content .heading .h2 {
+  font-size: 25px;
+  font-weight: 400;
+  color: #555555;
+  position: relative;
+  z-index: 2;
+}
+.project__content .heading .title {
+  font-size: 45px;
+  font-weight: 700;
+  color: #041D57;
+  position: relative;
+  z-index: 1;
+}
+@media screen and (max-width: 992px) {
+  .project__content .heading .title {
+    font-size: 39px;
+  }
+}
+.project__content .heading .title::before {
+  content: "Features";
+  position: absolute;
+  top: -70px;
+  left: -44px;
+  font-size: 100px;
+  color: #F9F9F9;
+  z-index: -1;
+}
+@media screen and (max-width: 992px) {
+  .project__content .heading .title::before {
+    display: none;
+  }
+}
+.project__content .heading span {
+  width: 70px;
+  height: 2px;
+  display: inline-block;
+  background-color: #18bfc3;
+}
+.project__content p {
+  color: #626c84;
+  margin-bottom: 30px;
+}
+.project__primary-btn {
+  --text-color: var(--bs-white);
+  --text-hover-color: var(--bs-white);
+  --background-color: var(--sky-blue-color);
+  --background-hover-color: var(--blue-color);
+}
+.project__box-image {
+  position: relative;
+}
+.project .image-1 {
+  text-align: right;
+  z-index: 1;
+}
+.project .image-2 {
+  margin-top: -73px;
+}
+@media screen and (max-width: 992px) {
+  .project .image-2 {
+    margin: 0;
+  }
+}
+
+.funfact {
+  background-image: url("../images/icon/funfact-bg-image.webp");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.funfact__content {
+  padding: 160px 0;
+}
+@media screen and (max-width: 992px) {
+  .funfact__content {
+    padding: 100px 0;
+  }
+}
+.funfact__content .heading {
+  margin-bottom: 60px;
+}
+.funfact__content .heading h2, .funfact__content .heading .h2 {
+  font-size: 52px;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 29px;
+}
+@media screen and (max-width: 375px) {
+  .funfact__content .heading h2, .funfact__content .heading .h2 {
+    font-size: 36px !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  .funfact__content .heading h2, .funfact__content .heading .h2 {
+    font-size: 34px;
+  }
+}
+.funfact__content .heading p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #999999;
+  margin: 0;
+}
+.funfact__content .single-funfact {
+  font-size: 80px;
+  color: #18bfc3;
+  margin-right: 30px;
+}
+.funfact__content .single-funfact span {
+  margin-right: 20px;
+}
+.funfact__content .body {
+  flex: 1;
+}
+.funfact__content .body .number-percentage {
+  font-size: 36px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+@media screen and (max-width: 992px) {
+  .funfact__content .body .number-percentage {
+    font-size: 24px;
+  }
+}
+.funfact__content .body .sign {
+  font-size: 36px;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin: 0 !important;
+}
+@media screen and (max-width: 992px) {
+  .funfact__content .body .sign {
+    font-size: 24px;
+  }
+}
+.funfact__content .body small, .funfact__content .body .small {
+  font-size: 20px;
+  color: #999999;
+  font-weight: 400;
+  display: block;
+  white-space: nowrap;
+}
+@media screen and (max-width: 992px) {
+  .funfact__content .body small, .funfact__content .body .small {
+    white-space: pre-wrap;
+  }
 }
