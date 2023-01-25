@@ -23049,6 +23049,34 @@ readers do not read off random characters that represent icons */
   }
 }
 
+.charity-navbar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+}
+.charity-navbar__brand {
+  background-color: #fff;
+}
+.charity-navbar .dropdown-menu > li:not(:last-child) {
+  border-bottom: 1px solid #eee;
+}
+.charity-navbar .dropdown-menu .dropdown-item {
+  padding: 10px;
+}
+.charity-navbar .dropdown-menu .dropdown-item:hover {
+  background-color: transparent;
+  color: red;
+}
+.charity-navbar .nav-item > a {
+  color: #fff;
+}
+.charity-navbar .nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: var(--bs-dropdown-spacer);
+}
+
 .funfact {
   background-image: url("../images/icon/funfact-bg-image.webp");
   background-repeat: no-repeat;

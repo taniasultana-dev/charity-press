@@ -1,6 +1,7 @@
 <?php  
     // document open
-    include './partials/document-open.php'; 
+    include './partials/document-open.php';
+    include './partials/navbar.php';
 ?>
 <section class="banner banner--home-2">
 <div class="owl-carousel banner-slider">

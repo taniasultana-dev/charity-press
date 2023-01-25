@@ -1,0 +1,39 @@
+.charity-navbar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+
+    &__brand {
+        background-color: #fff;
+    }
+
+    .dropdown-menu {
+        & > li {
+            &:not(:last-child) {
+                border-bottom: 1px solid #eee;
+            }
+        }
+
+        .dropdown-item {
+            padding: 10px;
+            &:hover {
+                background-color: transparent;
+                color: red;
+            }
+        }
+    }
+
+    .nav-item {
+        & > a {
+            color: #fff;
+        }
+
+        &.dropdown:hover .dropdown-menu {
+            display: block;
+            margin-top: var(--bs-dropdown-spacer);
+        }
+    }
+    
+}

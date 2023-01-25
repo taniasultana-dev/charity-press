@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="./css/app.css">
 
     <script src="./libs/js/jquery-3.6.1.min.js" defer></script>
+    <script src="./libs/js/bootstrap.bundle.min.js" defer></script>
     <script src="./libs/js/owl.carousel.min.js" defer></script>
     <script src="./libs/js/waypoints.min.js" defer></script>
     <script src="./libs/js/jquery.counterup.min.js" defer></script>
