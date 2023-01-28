@@ -194,12 +194,24 @@
             padding: 250px 0 200px 0;
             @include responsive($tablet) {
                 padding: 100px 0 100px 0;
+
+
+            }
+
+            .container {
+                @include responsive($iphoneSE){
+                    text-align: center !important;
+                }
             }
 
             .title {
                     font-size: 74px;
                     font-weight: 700;
                     max-width: 680px;
+                    @include responsive($mobile) {
+                      font-size: 52px;
+                      margin-bottom: 20px;
+                    }
                     @include responsive($tablet) {
                         max-width: 480px;
                     }

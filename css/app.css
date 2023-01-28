@@ -8263,7 +8263,7 @@ textarea.form-control-lg {
   border-radius: 50% !important;
 }
 
-.rounded-pill, .project__content a, .journal a, .brand__partner-content a, .events__single-event .event-content a, .volunteer__from a, .feature__box-content a, .welcome__content a, .popular a, .laptop__demo-content a, .hero__demo-content a, .banner__group-btn a {
+.rounded-pill, .charity-navbar .charity-btn a, .project__content a, .journal a, .brand__partner-content a, .events__single-event .event-content a, .volunteer__from a, .feature__box-content a, .welcome__content a, .popular a, .laptop__demo-content a, .hero__demo-content a, .banner__group-btn a {
   border-radius: var(--bs-border-radius-pill) !important;
 }
 
@@ -21119,7 +21119,7 @@ readers do not read off random characters that represent icons */
   --purple-200:#7255cf;
 }
 
-.journal__single-journal, .volunteer__from, .popular__item-content a, .banner__nav button, .banner__nav, .btn-base:not(.has-border)::before, .project__content a:not(.has-border)::before, .journal a:not(.has-border)::before, .brand__partner-content a:not(.has-border)::before, .events__single-event .event-content a:not(.has-border)::before, .volunteer__from a:not(.has-border)::before, .feature__box-content a:not(.has-border)::before, .welcome__content a:not(.has-border)::before, .popular a:not(.has-border)::before, .laptop__demo-content a:not(.has-border)::before, .hero__demo-content a:not(.has-border)::before, .banner__group-btn a:not(.has-border)::before, .btn-base.has-border, .project__content a.has-border, .journal a.has-border, .brand__partner-content a.has-border, .events__single-event .event-content a.has-border, .volunteer__from a.has-border, .feature__box-content a.has-border, .welcome__content a.has-border, .popular a.has-border, .laptop__demo-content a.has-border, .hero__demo-content a.has-border, .banner__group-btn a.has-border {
+.journal__single-journal, .volunteer__from, .popular__item-content a, .banner__nav button, .banner__nav, .btn-base:not(.has-border)::before, .charity-navbar .charity-btn a:not(.has-border)::before, .project__content a:not(.has-border)::before, .journal a:not(.has-border)::before, .brand__partner-content a:not(.has-border)::before, .events__single-event .event-content a:not(.has-border)::before, .volunteer__from a:not(.has-border)::before, .feature__box-content a:not(.has-border)::before, .welcome__content a:not(.has-border)::before, .popular a:not(.has-border)::before, .laptop__demo-content a:not(.has-border)::before, .hero__demo-content a:not(.has-border)::before, .banner__group-btn a:not(.has-border)::before, .btn-base.has-border, .charity-navbar .charity-btn a.has-border, .project__content a.has-border, .journal a.has-border, .brand__partner-content a.has-border, .events__single-event .event-content a.has-border, .volunteer__from a.has-border, .feature__box-content a.has-border, .welcome__content a.has-border, .popular a.has-border, .laptop__demo-content a.has-border, .hero__demo-content a.has-border, .banner__group-btn a.has-border {
   transition: all 0.4s ease;
 }
 
@@ -21145,11 +21145,11 @@ readers do not read off random characters that represent icons */
   flex-direction: column;
 }
 
-.no-underline, .project__content a, .journal a, .brand__partner-content a, .events__single-event .event-content a, .volunteer__from a, .feature__box-content a, .welcome__content a, .popular a, .site-footer a, .laptop__demo-content a, .hero__demo-content a, .banner__group-btn a {
+.no-underline, .charity-navbar .charity-btn a, .project__content a, .journal a, .brand__partner-content a, .events__single-event .event-content a, .volunteer__from a, .feature__box-content a, .welcome__content a, .popular a, .site-footer a, .laptop__demo-content a, .hero__demo-content a, .banner__group-btn a {
   text-decoration: none;
 }
 
-.inline-block, .project__content a, .journal a, .brand__partner-content a, .events__single-event .event-content a, .volunteer__from a, .feature__box-content a, .welcome__content a, .popular a, .laptop__demo-content a, .hero__demo-content a, .banner__group-btn a {
+.inline-block, .charity-navbar .charity-btn a, .project__content a, .journal a, .brand__partner-content a, .events__single-event .event-content a, .volunteer__from a, .feature__box-content a, .welcome__content a, .popular a, .laptop__demo-content a, .hero__demo-content a, .banner__group-btn a {
   display: inline-block;
 }
 
@@ -21267,12 +21267,12 @@ readers do not read off random characters that represent icons */
   padding-right: 20px;
 }
 
-.btn-base, .project__content a, .journal a, .brand__partner-content a, .events__single-event .event-content a, .volunteer__from a, .feature__box-content a, .welcome__content a, .popular a, .laptop__demo-content a, .hero__demo-content a, .banner__group-btn a {
+.btn-base, .charity-navbar .charity-btn a, .project__content a, .journal a, .brand__partner-content a, .events__single-event .event-content a, .volunteer__from a, .feature__box-content a, .welcome__content a, .popular a, .laptop__demo-content a, .hero__demo-content a, .banner__group-btn a {
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 700;
 }
-.btn-base.has-border, .project__content a.has-border, .journal a.has-border, .brand__partner-content a.has-border, .events__single-event .event-content a.has-border, .volunteer__from a.has-border, .feature__box-content a.has-border, .welcome__content a.has-border, .popular a.has-border, .laptop__demo-content a.has-border, .hero__demo-content a.has-border, .banner__group-btn a.has-border {
+.btn-base.has-border, .charity-navbar .charity-btn a.has-border, .project__content a.has-border, .journal a.has-border, .brand__partner-content a.has-border, .events__single-event .event-content a.has-border, .volunteer__from a.has-border, .feature__box-content a.has-border, .welcome__content a.has-border, .popular a.has-border, .laptop__demo-content a.has-border, .hero__demo-content a.has-border, .banner__group-btn a.has-border {
   border: 2px;
   border-style: solid;
   padding: 10px 34px;
@@ -21280,22 +21280,22 @@ readers do not read off random characters that represent icons */
   border-color: #FFFFFF;
   color: var(--text-color);
 }
-.btn-base.has-border:hover, .project__content a.has-border:hover, .journal a.has-border:hover, .brand__partner-content a.has-border:hover, .events__single-event .event-content a.has-border:hover, .volunteer__from a.has-border:hover, .feature__box-content a.has-border:hover, .welcome__content a.has-border:hover, .popular a.has-border:hover, .laptop__demo-content a.has-border:hover, .hero__demo-content a.has-border:hover, .banner__group-btn a.has-border:hover {
+.btn-base.has-border:hover, .charity-navbar .charity-btn a.has-border:hover, .project__content a.has-border:hover, .journal a.has-border:hover, .brand__partner-content a.has-border:hover, .events__single-event .event-content a.has-border:hover, .volunteer__from a.has-border:hover, .feature__box-content a.has-border:hover, .welcome__content a.has-border:hover, .popular a.has-border:hover, .laptop__demo-content a.has-border:hover, .hero__demo-content a.has-border:hover, .banner__group-btn a.has-border:hover {
   background-color: var(--background-hover-color);
   color: var(--text-hover-color);
 }
-.btn-base:not(.has-border), .project__content a:not(.has-border), .journal a:not(.has-border), .brand__partner-content a:not(.has-border), .events__single-event .event-content a:not(.has-border), .volunteer__from a:not(.has-border), .feature__box-content a:not(.has-border), .welcome__content a:not(.has-border), .popular a:not(.has-border), .laptop__demo-content a:not(.has-border), .hero__demo-content a:not(.has-border), .banner__group-btn a:not(.has-border) {
+.btn-base:not(.has-border), .charity-navbar .charity-btn a:not(.has-border), .project__content a:not(.has-border), .journal a:not(.has-border), .brand__partner-content a:not(.has-border), .events__single-event .event-content a:not(.has-border), .volunteer__from a:not(.has-border), .feature__box-content a:not(.has-border), .welcome__content a:not(.has-border), .popular a:not(.has-border), .laptop__demo-content a:not(.has-border), .hero__demo-content a:not(.has-border), .banner__group-btn a:not(.has-border) {
   padding: var(--padding, 12px 36px);
   background-color: var(--background-color);
   color: var(--text-color);
   position: relative;
   overflow: hidden;
 }
-.btn-base:not(.has-border) span, .project__content a:not(.has-border) span, .journal a:not(.has-border) span, .brand__partner-content a:not(.has-border) span, .events__single-event .event-content a:not(.has-border) span, .volunteer__from a:not(.has-border) span, .feature__box-content a:not(.has-border) span, .welcome__content a:not(.has-border) span, .popular a:not(.has-border) span, .laptop__demo-content a:not(.has-border) span, .hero__demo-content a:not(.has-border) span, .banner__group-btn a:not(.has-border) span {
+.btn-base:not(.has-border) span, .charity-navbar .charity-btn a:not(.has-border) span, .project__content a:not(.has-border) span, .journal a:not(.has-border) span, .brand__partner-content a:not(.has-border) span, .events__single-event .event-content a:not(.has-border) span, .volunteer__from a:not(.has-border) span, .feature__box-content a:not(.has-border) span, .welcome__content a:not(.has-border) span, .popular a:not(.has-border) span, .laptop__demo-content a:not(.has-border) span, .hero__demo-content a:not(.has-border) span, .banner__group-btn a:not(.has-border) span {
   position: relative;
   z-index: 2;
 }
-.btn-base:not(.has-border)::before, .project__content a:not(.has-border)::before, .journal a:not(.has-border)::before, .brand__partner-content a:not(.has-border)::before, .events__single-event .event-content a:not(.has-border)::before, .volunteer__from a:not(.has-border)::before, .feature__box-content a:not(.has-border)::before, .welcome__content a:not(.has-border)::before, .popular a:not(.has-border)::before, .laptop__demo-content a:not(.has-border)::before, .hero__demo-content a:not(.has-border)::before, .banner__group-btn a:not(.has-border)::before {
+.btn-base:not(.has-border)::before, .charity-navbar .charity-btn a:not(.has-border)::before, .project__content a:not(.has-border)::before, .journal a:not(.has-border)::before, .brand__partner-content a:not(.has-border)::before, .events__single-event .event-content a:not(.has-border)::before, .volunteer__from a:not(.has-border)::before, .feature__box-content a:not(.has-border)::before, .welcome__content a:not(.has-border)::before, .popular a:not(.has-border)::before, .laptop__demo-content a:not(.has-border)::before, .hero__demo-content a:not(.has-border)::before, .banner__group-btn a:not(.has-border)::before {
   content: "";
   width: 0%;
   height: 100%;
@@ -21307,10 +21307,10 @@ readers do not read off random characters that represent icons */
   transform: translateX(-50%);
   background-color: var(--background-hover-color);
 }
-.btn-base:not(.has-border):hover, .project__content a:not(.has-border):hover, .journal a:not(.has-border):hover, .brand__partner-content a:not(.has-border):hover, .events__single-event .event-content a:not(.has-border):hover, .volunteer__from a:not(.has-border):hover, .feature__box-content a:not(.has-border):hover, .welcome__content a:not(.has-border):hover, .popular a:not(.has-border):hover, .laptop__demo-content a:not(.has-border):hover, .hero__demo-content a:not(.has-border):hover, .banner__group-btn a:not(.has-border):hover {
+.btn-base:not(.has-border):hover, .charity-navbar .charity-btn a:not(.has-border):hover, .project__content a:not(.has-border):hover, .journal a:not(.has-border):hover, .brand__partner-content a:not(.has-border):hover, .events__single-event .event-content a:not(.has-border):hover, .volunteer__from a:not(.has-border):hover, .feature__box-content a:not(.has-border):hover, .welcome__content a:not(.has-border):hover, .popular a:not(.has-border):hover, .laptop__demo-content a:not(.has-border):hover, .hero__demo-content a:not(.has-border):hover, .banner__group-btn a:not(.has-border):hover {
   color: var(--text-hover-color);
 }
-.btn-base:not(.has-border):hover:before, .project__content a:not(.has-border):hover:before, .journal a:not(.has-border):hover:before, .brand__partner-content a:not(.has-border):hover:before, .events__single-event .event-content a:not(.has-border):hover:before, .volunteer__from a:not(.has-border):hover:before, .feature__box-content a:not(.has-border):hover:before, .welcome__content a:not(.has-border):hover:before, .popular a:not(.has-border):hover:before, .laptop__demo-content a:not(.has-border):hover:before, .hero__demo-content a:not(.has-border):hover:before, .banner__group-btn a:not(.has-border):hover:before {
+.btn-base:not(.has-border):hover:before, .charity-navbar .charity-btn a:not(.has-border):hover:before, .project__content a:not(.has-border):hover:before, .journal a:not(.has-border):hover:before, .brand__partner-content a:not(.has-border):hover:before, .events__single-event .event-content a:not(.has-border):hover:before, .volunteer__from a:not(.has-border):hover:before, .feature__box-content a:not(.has-border):hover:before, .welcome__content a:not(.has-border):hover:before, .popular a:not(.has-border):hover:before, .laptop__demo-content a:not(.has-border):hover:before, .hero__demo-content a:not(.has-border):hover:before, .banner__group-btn a:not(.has-border):hover:before {
   width: 100%;
   opacity: 1;
 }
@@ -21476,10 +21476,21 @@ readers do not read off random characters that represent icons */
     padding: 100px 0 100px 0;
   }
 }
+@media screen and (max-width: 375px) {
+  .banner--home-2 .overlay .container {
+    text-align: center !important;
+  }
+}
 .banner--home-2 .overlay .title {
   font-size: 74px;
   font-weight: 700;
   max-width: 680px;
+}
+@media screen and (max-width: 575px) {
+  .banner--home-2 .overlay .title {
+    font-size: 52px;
+    margin-bottom: 20px;
+  }
 }
 @media screen and (max-width: 992px) {
   .banner--home-2 .overlay .title {
@@ -21708,6 +21719,11 @@ readers do not read off random characters that represent icons */
   color: #041D57;
   font-weight: 700;
 }
+@media screen and (max-width: 768px) {
+  .popular__title {
+    font-size: 40px;
+  }
+}
 .popular__dashed {
   width: 35px;
   height: 2px;
@@ -21767,6 +21783,7 @@ readers do not read off random characters that represent icons */
   font-size: 15px;
   font-weight: 700;
   line-height: 24px;
+  margin: 0;
   color: #041D57;
 }
 .popular__item-content .list-content {
@@ -21780,6 +21797,22 @@ readers do not read off random characters that represent icons */
   margin-left: 26px;
   margin-right: 15px;
   margin-bottom: 20px;
+}
+@media screen and (max-width: 768px) {
+  .popular__item-content .list-content li {
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .popular__item-content .list-content li {
+    margin-left: -26px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .popular__item-content .list-content li {
+    margin-left: 20px;
+  }
 }
 .popular__item-content .list-content li p {
   color: #041D57;
@@ -22978,6 +23011,11 @@ readers do not read off random characters that represent icons */
 .project {
   padding: 120px 0;
 }
+@media screen and (max-width: 768px) {
+  .project {
+    padding: 30px 0;
+  }
+}
 .project__content {
   padding-top: 75px;
 }
@@ -22997,6 +23035,11 @@ readers do not read off random characters that represent icons */
   color: #041D57;
   position: relative;
   z-index: 1;
+}
+@media screen and (max-width: 768px) {
+  .project__content .heading .title {
+    font-size: 32px !important;
+  }
 }
 @media screen and (max-width: 992px) {
   .project__content .heading .title {
@@ -23039,6 +23082,12 @@ readers do not read off random characters that represent icons */
 .project .image-1 {
   text-align: right;
   z-index: 1;
+  max-width: 100%;
+}
+@media screen and (max-width: 375px) {
+  .project .image-1 img {
+    width: 352px;
+  }
 }
 .project .image-2 {
   margin-top: -73px;
@@ -23046,6 +23095,11 @@ readers do not read off random characters that represent icons */
 @media screen and (max-width: 992px) {
   .project .image-2 {
     margin: 0;
+  }
+}
+@media screen and (max-width: 375px) {
+  .project .image-2 img {
+    width: 352px;
   }
 }
 
@@ -23059,6 +23113,15 @@ readers do not read off random characters that represent icons */
 .charity-navbar__brand {
   background-color: #fff;
 }
+.charity-navbar .navbar-nav .nav-item a {
+  font-size: 14px;
+  font-weight: 600;
+}
+@media screen and (max-width: 992px) {
+  .charity-navbar .navbar-nav .nav-item a {
+    display: none;
+  }
+}
 .charity-navbar .dropdown-menu > li:not(:last-child) {
   border-bottom: 1px solid #eee;
 }
@@ -23067,7 +23130,7 @@ readers do not read off random characters that represent icons */
 }
 .charity-navbar .dropdown-menu .dropdown-item:hover {
   background-color: transparent;
-  color: red;
+  color: #18bfc3;
 }
 .charity-navbar .nav-item > a {
   color: #fff;
@@ -23075,6 +23138,17 @@ readers do not read off random characters that represent icons */
 .charity-navbar .nav-item.dropdown:hover .dropdown-menu {
   display: block;
   margin-top: var(--bs-dropdown-spacer);
+}
+@media screen and (max-width: 992px) {
+  .charity-navbar .charity-btn {
+    display: none;
+  }
+}
+.charity-navbar__primary-btn {
+  --text-color: var(--bs-white);
+  --text-hover-color: var(--bs-white);
+  --background-color: var(--sky-blue-color);
+  --background-hover-color: var(--blue-color);
 }
 
 .funfact {

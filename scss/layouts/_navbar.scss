@@ -9,6 +9,15 @@
         background-color: #fff;
     }
 
+    .navbar-nav .nav-item a {
+        font-size: 14px;
+        font-weight: 600;
+        @include responsive($tablet) {
+            display: none;
+        }
+    }
+
+
     .dropdown-menu {
         & > li {
             &:not(:last-child) {
@@ -20,7 +29,7 @@
             padding: 10px;
             &:hover {
                 background-color: transparent;
-                color: red;
+                color: $sky-blue;
             }
         }
     }
@@ -34,6 +43,22 @@
             display: block;
             margin-top: var(--bs-dropdown-spacer);
         }
+    }
+
+    .charity-btn {
+        a {
+            @extend .no-underline, .inline-block, .btn-base, .rounded-pill; 
+        }
+       @include responsive($tablet) {
+        display: none;
+       }
+    }
+
+    &__primary-btn {
+        --text-color: var(--bs-white);
+        --text-hover-color: var(--bs-white);
+        --background-color: var(--sky-blue-color);
+        --background-hover-color: var(--blue-color);    
     }
     
 }

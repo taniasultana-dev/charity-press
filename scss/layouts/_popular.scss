@@ -9,6 +9,9 @@
         font-size: 52px;
         color: $black-100;
         font-weight: 700;
+        @include responsive($mobile-horizontal) {
+            font-size: 40px;
+        }
     }
 
     &__dashed {
@@ -89,6 +92,7 @@
             font-size: 15px;
             font-weight: 700;
             line-height: 24px;
+            margin: 0;
             color: $black-100;
             @extend %default-transition;
         }
@@ -104,6 +108,19 @@
                 margin-left: 26px;
                 margin-right: 15px;
                 margin-bottom: 20px;
+                @include responsive($mobile-horizontal) {
+                    margin-left: 20px;
+                    margin-right: 10px;
+                }
+
+                @include responsive($mobile) {
+                    margin-left: -26px;
+                   
+                }
+
+                @include responsive($iphoneSE) {
+                    margin-left: 20px;
+                }
 
                 p {
                     color: $black-100;

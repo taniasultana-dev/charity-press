@@ -1,5 +1,8 @@
 .project {
     padding: 120px 0;
+    @include responsive($mobile-horizontal) {
+        padding: 30px 0;
+    }
 
     &__content {
         padding-top: 75px;
@@ -21,6 +24,10 @@
                 color: $black-100;
                 position: relative;
                 z-index: 1;
+                @include responsive($mobile-horizontal) {
+                    font-size: 32px !important;
+                }
+
                 @include responsive($tablet) {
                     font-size: 39px;
                 }
@@ -71,12 +78,25 @@
     .image-1 {
         text-align: right;
         z-index: 1;
+        max-width: 100%;
+        
+        img {
+            @include responsive($iphoneSE) {
+                width: 352px;
+            }
+        }
     }
 
     .image-2 {
         margin-top: -73px;
         @include responsive($tablet) {
             margin: 0;
+        }
+
+        img {
+            @include responsive($iphoneSE) {
+                width: 352px;
+            }
         }
     }
 }
